@@ -12,9 +12,16 @@
 </head>
 
 <body>
-    <!-- <h1>Hi!</h1> -->
-    <script src="js/three.js"></script>
-    <script src="main.js"></script>
+    <!-- Shims as i think ES modules are not supported on webkit -->
+    <script src="./js/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+            "imports" :{
+                "three" : "./js/three.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
 </body>
 
 </html>
