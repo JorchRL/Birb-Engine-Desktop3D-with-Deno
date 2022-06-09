@@ -8,7 +8,15 @@ yet.
 
 ## Usage
 
-Inside `./dist` there is a `main.js` where you can write a three.js application.
+You should output a "./dist/app.js" bundle with your complete Three.js app. You
+probably want to keep all of your app code inside "./src".
+
+TODO: I still have to find a way to write and bundle Three.js with Deno. The
+bundling process should output "./dist/app.js". Then "./main.ts" would run the
+page in a webview.
+
+This is not as straightforward as it may seem because we may want to, at some
+point, hook Deno callbacks into the running app (ie. with `Webview.bind()`).
 
 ## How to run
 

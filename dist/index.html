@@ -2,30 +2,23 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style>
-        body {
-            margin: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
 
-    <!-- <script async src="./js/es-module-shims.js"></script> -->
+  <!-- Until I figure out how to bundle Three.js with Deno, importing three.js like this will be required :( -->
+  <script src="./js/three.js"></script>
 
-    <!-- <script type="importmap">
-      {
-        "imports": {
-          "three": "./js/three.module.js"
-        }
-      }
-    </script> -->
-    <!-- <script TYPE="module" src="./js/three.module.js"></script> -->
+  <!-- Also, the app needs to be written in a plain js file. No import statements, as they won't work with WebView_deno (see issue #1) -->
+  <script src="main.js"></script>
 
-    <script src="./js/three.js"></script>
-    <script src="main.js"></script>
 </body>
 
 </html>
