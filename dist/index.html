@@ -12,16 +12,20 @@
 </head>
 
 <body>
-    <!-- Shims as i think ES modules are not supported on webkit -->
-    <script src="./js/es-module-shims.js"></script>
-    <script type="importmap">
-        {
-            "imports" :{
-                "three" : "./js/three.js"
-            }
+
+    <!-- <script async src="./js/es-module-shims.js"></script> -->
+
+    <!-- <script type="importmap">
+      {
+        "imports": {
+          "three": "./js/three.module.js"
         }
-    </script>
-    <script type="module" src="main.js"></script>
+      }
+    </script> -->
+    <!-- <script TYPE="module" src="./js/three.module.js"></script> -->
+
+    <script src="./js/three.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
