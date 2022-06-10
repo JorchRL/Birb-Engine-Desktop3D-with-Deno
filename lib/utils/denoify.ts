@@ -34,7 +34,7 @@ function updateTypeDefs (fileName: string, path: string) {
         return m
     })
 
-    data = data.replaceAll(/export \* from .+?;/gms, (m) => {
+    data = data.replaceAll(/export (\*|{.+}) from .+?;/gms, (m) => {
         if (!m.includes(".d.ts")) {
            m = `${m.slice(0, m.length - 2)}.d.ts${m.slice(m.length - 2)}` 
         }

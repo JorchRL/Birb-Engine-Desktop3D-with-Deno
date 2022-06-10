@@ -3,7 +3,7 @@ import { ColorRepresentation } from '../utils.d.ts';
 
 import { BufferAttribute } from './../core/BufferAttribute.d.ts';
 
-export { SRGBToLinear } from './ColorManagement';
+export { SRGBToLinear } from './ColorManagement.d.ts';
 
 export interface HSL {
     h: number;
