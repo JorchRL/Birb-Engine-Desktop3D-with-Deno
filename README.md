@@ -24,6 +24,28 @@ Just run `deno run -A --unstable ./main.ts`
 
 Make sure to check the dependencies first.
 
+## Three.js version
+
+I'm importing Three.js form npm into the project. But I'll manually place it
+into "./lib/three"
+
+This is the version of Three.js I'm currently using
+
+```
+"dependencies": {
+    "@types/three": "^0.141.0",
+    "three": "^0.141.0"
+  }
+```
+
+## Type definitions for Three.js
+
+If you are reading this it is already done! :D
+
+The "./lib/utils/denoify.ts" script will rewrite the import/export urls into
+Deno-friendly urls. You don't need to run it unless you want to import another
+version of Three.js.
+
 ## Dependency locking
 
 Use `deno cache --reload --lock=lock.json --lock-write ./deps.ts` to
@@ -31,6 +53,9 @@ write/update the dependencies.
 
 And `deno cache --reload --lock=lock.json ./deps.ts` to check dependencies for
 integrity
+
+Three.js itself is bundled with this project, until I figure out a better
+solution!
 
 ## Further improvements
 
