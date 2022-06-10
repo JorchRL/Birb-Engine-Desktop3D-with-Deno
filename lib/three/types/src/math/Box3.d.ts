@@ -1,10 +1,10 @@
-import { BufferAttribute } from './../core/BufferAttribute';
-import { Vector3 } from './Vector3';
-import { Object3D } from './../core/Object3D';
-import { Sphere } from './Sphere';
-import { Plane } from './Plane';
-import { Matrix4 } from './Matrix4';
-import { Triangle } from './Triangle';
+import { BufferAttribute } from './../core/BufferAttribute.d.ts';
+import { Vector3 } from './Vector3.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { Sphere } from './Sphere.d.ts';
+import { Plane } from './Plane.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Triangle } from './Triangle.d.ts';
 
 export class Box3 {
     constructor(min?: Vector3, max?: Vector3);

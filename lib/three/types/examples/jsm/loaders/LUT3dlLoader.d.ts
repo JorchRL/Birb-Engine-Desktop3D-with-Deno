@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, DataTexture, Data3DTexture } from '../../../src/Three';
+import { Loader, LoadingManager, DataTexture, Data3DTexture } from '../../../src/Three.d.ts';
 
 export interface LUT3dlResult {
     size: number;

@@ -1,7 +1,7 @@
-import { Loader } from './Loader';
-import { LoadingManager } from './LoadingManager';
-import { Texture } from './../textures/Texture';
-import { Material } from './../materials/Material';
+import { Loader } from './Loader.d.ts';
+import { LoadingManager } from './LoadingManager.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { Material } from './../materials/Material.d.ts';
 
 export class MaterialLoader extends Loader {
     constructor(manager?: LoadingManager);

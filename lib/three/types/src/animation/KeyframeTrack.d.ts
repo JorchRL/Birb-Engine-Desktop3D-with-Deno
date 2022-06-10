@@ -1,7 +1,7 @@
-import { DiscreteInterpolant } from './../math/interpolants/DiscreteInterpolant';
-import { LinearInterpolant } from './../math/interpolants/LinearInterpolant';
-import { CubicInterpolant } from './../math/interpolants/CubicInterpolant';
-import { InterpolationModes } from '../constants';
+import { DiscreteInterpolant } from './../math/interpolants/DiscreteInterpolant.d.ts';
+import { LinearInterpolant } from './../math/interpolants/LinearInterpolant.d.ts';
+import { CubicInterpolant } from './../math/interpolants/CubicInterpolant.d.ts';
+import { InterpolationModes } from '../constants.d.ts';
 
 export class KeyframeTrack {
     /**

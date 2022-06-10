@@ -1,234 +1,234 @@
 /**
  * SRC
  */
-export * from './constants';
-export * from './Three.Legacy';
-export * from './utils';
+export * from './constants.d.ts';
+export * from './Three.Legacy.d.ts';
+export * from './utils.d.ts';
 /**
  * Animation
  */
-export * from './animation/tracks/VectorKeyframeTrack';
-export * from './animation/tracks/StringKeyframeTrack';
-export * from './animation/tracks/QuaternionKeyframeTrack';
-export * from './animation/tracks/NumberKeyframeTrack';
-export * from './animation/tracks/ColorKeyframeTrack';
-export * from './animation/tracks/BooleanKeyframeTrack';
-export * from './animation/PropertyMixer';
-export * from './animation/PropertyBinding';
-export * from './animation/KeyframeTrack';
-export * from './animation/AnimationUtils';
-export * from './animation/AnimationObjectGroup';
-export * from './animation/AnimationMixer';
-export * from './animation/AnimationClip';
-export * from './animation/AnimationAction';
+export * from './animation/tracks/VectorKeyframeTrack.d.ts';
+export * from './animation/tracks/StringKeyframeTrack.d.ts';
+export * from './animation/tracks/QuaternionKeyframeTrack.d.ts';
+export * from './animation/tracks/NumberKeyframeTrack.d.ts';
+export * from './animation/tracks/ColorKeyframeTrack.d.ts';
+export * from './animation/tracks/BooleanKeyframeTrack.d.ts';
+export * from './animation/PropertyMixer.d.ts';
+export * from './animation/PropertyBinding.d.ts';
+export * from './animation/KeyframeTrack.d.ts';
+export * from './animation/AnimationUtils.d.ts';
+export * from './animation/AnimationObjectGroup.d.ts';
+export * from './animation/AnimationMixer.d.ts';
+export * from './animation/AnimationClip.d.ts';
+export * from './animation/AnimationAction.d.ts';
 /**
  * Audio
  */
-export * from './audio/AudioListener';
-export * from './audio/PositionalAudio';
-export * from './audio/AudioContext';
-export * from './audio/AudioAnalyser';
-export * from './audio/Audio';
+export * from './audio/AudioListener.d.ts';
+export * from './audio/PositionalAudio.d.ts';
+export * from './audio/AudioContext.d.ts';
+export * from './audio/AudioAnalyser.d.ts';
+export * from './audio/Audio.d.ts';
 /**
  * Cameras
  */
-export * from './cameras/StereoCamera';
-export * from './cameras/PerspectiveCamera';
-export * from './cameras/OrthographicCamera';
-export * from './cameras/CubeCamera';
-export * from './cameras/ArrayCamera';
-export * from './cameras/Camera';
+export * from './cameras/StereoCamera.d.ts';
+export * from './cameras/PerspectiveCamera.d.ts';
+export * from './cameras/OrthographicCamera.d.ts';
+export * from './cameras/CubeCamera.d.ts';
+export * from './cameras/ArrayCamera.d.ts';
+export * from './cameras/Camera.d.ts';
 /**
  * Core
  */
-export * from './core/Uniform';
-export * from './core/InstancedBufferGeometry';
-export * from './core/BufferGeometry';
-export * from './core/InterleavedBufferAttribute';
-export * from './core/InstancedInterleavedBuffer';
-export * from './core/InterleavedBuffer';
-export * from './core/InstancedBufferAttribute';
-export * from './core/GLBufferAttribute';
-export * from './core/BufferAttribute';
-export * from './core/Object3D';
-export * from './core/Raycaster';
-export * from './core/Layers';
-export * from './core/EventDispatcher';
-export * from './core/Clock';
+export * from './core/Uniform.d.ts';
+export * from './core/InstancedBufferGeometry.d.ts';
+export * from './core/BufferGeometry.d.ts';
+export * from './core/InterleavedBufferAttribute.d.ts';
+export * from './core/InstancedInterleavedBuffer.d.ts';
+export * from './core/InterleavedBuffer.d.ts';
+export * from './core/InstancedBufferAttribute.d.ts';
+export * from './core/GLBufferAttribute.d.ts';
+export * from './core/BufferAttribute.d.ts';
+export * from './core/Object3D.d.ts';
+export * from './core/Raycaster.d.ts';
+export * from './core/Layers.d.ts';
+export * from './core/EventDispatcher.d.ts';
+export * from './core/Clock.d.ts';
 /**
  * Extras
  */
-export * from './extras/curves/Curves';
-export * from './extras/core/Shape';
-export * from './extras/core/Path';
-export * from './extras/core/ShapePath';
-export * from './extras/core/CurvePath';
-export * from './extras/core/Curve';
-export * from './extras/DataUtils';
-export * from './extras/Earcut';
-export * from './extras/ImageUtils';
-export * from './extras/ShapeUtils';
-export * from './extras/PMREMGenerator';
+export * from './extras/curves/Curves.d.ts';
+export * from './extras/core/Shape.d.ts';
+export * from './extras/core/Path.d.ts';
+export * from './extras/core/ShapePath.d.ts';
+export * from './extras/core/CurvePath.d.ts';
+export * from './extras/core/Curve.d.ts';
+export * from './extras/DataUtils.d.ts';
+export * from './extras/Earcut.d.ts';
+export * from './extras/ImageUtils.d.ts';
+export * from './extras/ShapeUtils.d.ts';
+export * from './extras/PMREMGenerator.d.ts';
 /**
  * Geometries
  */
-export * from './geometries/Geometries';
+export * from './geometries/Geometries.d.ts';
 /**
  * Helpers
  */
-export * from './helpers/SpotLightHelper';
-export * from './helpers/SkeletonHelper';
-export * from './helpers/PointLightHelper';
-export * from './helpers/HemisphereLightHelper';
-export * from './helpers/GridHelper';
-export * from './helpers/PolarGridHelper';
-export * from './helpers/DirectionalLightHelper';
-export * from './helpers/CameraHelper';
-export * from './helpers/BoxHelper';
-export * from './helpers/Box3Helper';
-export * from './helpers/PlaneHelper';
-export * from './helpers/ArrowHelper';
-export * from './helpers/AxesHelper';
+export * from './helpers/SpotLightHelper.d.ts';
+export * from './helpers/SkeletonHelper.d.ts';
+export * from './helpers/PointLightHelper.d.ts';
+export * from './helpers/HemisphereLightHelper.d.ts';
+export * from './helpers/GridHelper.d.ts';
+export * from './helpers/PolarGridHelper.d.ts';
+export * from './helpers/DirectionalLightHelper.d.ts';
+export * from './helpers/CameraHelper.d.ts';
+export * from './helpers/BoxHelper.d.ts';
+export * from './helpers/Box3Helper.d.ts';
+export * from './helpers/PlaneHelper.d.ts';
+export * from './helpers/ArrowHelper.d.ts';
+export * from './helpers/AxesHelper.d.ts';
 /**
  * Lights
  */
-export * from './lights/SpotLightShadow';
-export * from './lights/SpotLight';
-export * from './lights/PointLight';
-export * from './lights/PointLightShadow';
-export * from './lights/RectAreaLight';
-export * from './lights/HemisphereLight';
-export * from './lights/DirectionalLightShadow';
-export * from './lights/DirectionalLight';
-export * from './lights/AmbientLight';
-export * from './lights/LightShadow';
-export * from './lights/Light';
-export * from './lights/AmbientLightProbe';
-export * from './lights/HemisphereLightProbe';
-export * from './lights/LightProbe';
+export * from './lights/SpotLightShadow.d.ts';
+export * from './lights/SpotLight.d.ts';
+export * from './lights/PointLight.d.ts';
+export * from './lights/PointLightShadow.d.ts';
+export * from './lights/RectAreaLight.d.ts';
+export * from './lights/HemisphereLight.d.ts';
+export * from './lights/DirectionalLightShadow.d.ts';
+export * from './lights/DirectionalLight.d.ts';
+export * from './lights/AmbientLight.d.ts';
+export * from './lights/LightShadow.d.ts';
+export * from './lights/Light.d.ts';
+export * from './lights/AmbientLightProbe.d.ts';
+export * from './lights/HemisphereLightProbe.d.ts';
+export * from './lights/LightProbe.d.ts';
 /**
  * Loaders
  */
-export * from './loaders/AnimationLoader';
-export * from './loaders/CompressedTextureLoader';
-export * from './loaders/DataTextureLoader';
-export * from './loaders/CubeTextureLoader';
-export * from './loaders/TextureLoader';
-export * from './loaders/ObjectLoader';
-export * from './loaders/MaterialLoader';
-export * from './loaders/BufferGeometryLoader';
-export * from './loaders/LoadingManager';
-export * from './loaders/ImageLoader';
-export * from './loaders/ImageBitmapLoader';
-export * from './loaders/FileLoader';
-export * from './loaders/Loader';
-export * from './loaders/LoaderUtils';
-export * from './loaders/Cache';
-export * from './loaders/AudioLoader';
+export * from './loaders/AnimationLoader.d.ts';
+export * from './loaders/CompressedTextureLoader.d.ts';
+export * from './loaders/DataTextureLoader.d.ts';
+export * from './loaders/CubeTextureLoader.d.ts';
+export * from './loaders/TextureLoader.d.ts';
+export * from './loaders/ObjectLoader.d.ts';
+export * from './loaders/MaterialLoader.d.ts';
+export * from './loaders/BufferGeometryLoader.d.ts';
+export * from './loaders/LoadingManager.d.ts';
+export * from './loaders/ImageLoader.d.ts';
+export * from './loaders/ImageBitmapLoader.d.ts';
+export * from './loaders/FileLoader.d.ts';
+export * from './loaders/Loader.d.ts';
+export * from './loaders/LoaderUtils.d.ts';
+export * from './loaders/Cache.d.ts';
+export * from './loaders/AudioLoader.d.ts';
 /**
  * Materials
  */
-export * from './materials/Materials';
+export * from './materials/Materials.d.ts';
 /**
  * Math
  */
-export * from './math/interpolants/QuaternionLinearInterpolant';
-export * from './math/interpolants/LinearInterpolant';
-export * from './math/interpolants/DiscreteInterpolant';
-export * from './math/interpolants/CubicInterpolant';
-export * from './math/Interpolant';
-export * from './math/Triangle';
-export * from './math/Spherical';
-export * from './math/Cylindrical';
-export * from './math/Plane';
-export * from './math/Frustum';
-export * from './math/Sphere';
-export * from './math/Ray';
-export * from './math/Matrix4';
-export * from './math/Matrix3';
-export * from './math/Box3';
-export * from './math/Box2';
-export * from './math/Line3';
-export * from './math/Euler';
-export * from './math/Vector4';
-export * from './math/Vector3';
-export * from './math/Vector2';
-export * from './math/Quaternion';
-export * from './math/Color';
-export * from './math/SphericalHarmonics3';
-import * as MathUtils from './math/MathUtils';
+export * from './math/interpolants/QuaternionLinearInterpolant.d.ts';
+export * from './math/interpolants/LinearInterpolant.d.ts';
+export * from './math/interpolants/DiscreteInterpolant.d.ts';
+export * from './math/interpolants/CubicInterpolant.d.ts';
+export * from './math/Interpolant.d.ts';
+export * from './math/Triangle.d.ts';
+export * from './math/Spherical.d.ts';
+export * from './math/Cylindrical.d.ts';
+export * from './math/Plane.d.ts';
+export * from './math/Frustum.d.ts';
+export * from './math/Sphere.d.ts';
+export * from './math/Ray.d.ts';
+export * from './math/Matrix4.d.ts';
+export * from './math/Matrix3.d.ts';
+export * from './math/Box3.d.ts';
+export * from './math/Box2.d.ts';
+export * from './math/Line3.d.ts';
+export * from './math/Euler.d.ts';
+export * from './math/Vector4.d.ts';
+export * from './math/Vector3.d.ts';
+export * from './math/Vector2.d.ts';
+export * from './math/Quaternion.d.ts';
+export * from './math/Color.d.ts';
+export * from './math/SphericalHarmonics3.d.ts';
+import * as MathUtils from './math/MathUtils.d.ts';
 export { MathUtils };
 /**
  * Objects
  */
-export * from './objects/Sprite';
-export * from './objects/LOD';
-export * from './objects/InstancedMesh';
-export * from './objects/SkinnedMesh';
-export * from './objects/Skeleton';
-export * from './objects/Bone';
-export * from './objects/Mesh';
-export * from './objects/LineSegments';
-export * from './objects/LineLoop';
-export * from './objects/Line';
-export * from './objects/Points';
-export * from './objects/Group';
+export * from './objects/Sprite.d.ts';
+export * from './objects/LOD.d.ts';
+export * from './objects/InstancedMesh.d.ts';
+export * from './objects/SkinnedMesh.d.ts';
+export * from './objects/Skeleton.d.ts';
+export * from './objects/Bone.d.ts';
+export * from './objects/Mesh.d.ts';
+export * from './objects/LineSegments.d.ts';
+export * from './objects/LineLoop.d.ts';
+export * from './objects/Line.d.ts';
+export * from './objects/Points.d.ts';
+export * from './objects/Group.d.ts';
 /**
  * Renderers
  */
-export * from './renderers/WebGLMultisampleRenderTarget';
-export * from './renderers/WebGLCubeRenderTarget';
-export * from './renderers/WebGLMultipleRenderTargets';
-export * from './renderers/WebGLRenderTarget';
-export * from './renderers/WebGLRenderer';
-export * from './renderers/WebGL1Renderer';
-export * from './renderers/WebGL3DRenderTarget';
-export * from './renderers/WebGLArrayRenderTarget';
-export * from './renderers/shaders/ShaderLib';
-export * from './renderers/shaders/UniformsLib';
-export * from './renderers/shaders/UniformsUtils';
-export * from './renderers/shaders/ShaderChunk';
-export * from './renderers/webgl/WebGLBufferRenderer';
-export * from './renderers/webgl/WebGLCapabilities';
-export * from './renderers/webgl/WebGLClipping';
-export * from './renderers/webgl/WebGLCubeUVMaps';
-export * from './renderers/webgl/WebGLExtensions';
-export * from './renderers/webgl/WebGLGeometries';
-export * from './renderers/webgl/WebGLIndexedBufferRenderer';
-export * from './renderers/webgl/WebGLInfo';
-export * from './renderers/webgl/WebGLLights';
-export * from './renderers/webgl/WebGLObjects';
-export * from './renderers/webgl/WebGLProgram';
-export * from './renderers/webgl/WebGLPrograms';
-export * from './renderers/webgl/WebGLProperties';
-export * from './renderers/webgl/WebGLRenderLists';
-export * from './renderers/webgl/WebGLShader';
-export * from './renderers/webgl/WebGLShadowMap';
-export * from './renderers/webgl/WebGLState';
-export * from './renderers/webgl/WebGLTextures';
-export * from './renderers/webgl/WebGLUniforms';
-export * from './renderers/webxr/WebXRController';
-export * from './renderers/webxr/WebXRManager';
+export * from './renderers/WebGLMultisampleRenderTarget.d.ts';
+export * from './renderers/WebGLCubeRenderTarget.d.ts';
+export * from './renderers/WebGLMultipleRenderTargets.d.ts';
+export * from './renderers/WebGLRenderTarget.d.ts';
+export * from './renderers/WebGLRenderer.d.ts';
+export * from './renderers/WebGL1Renderer.d.ts';
+export * from './renderers/WebGL3DRenderTarget.d.ts';
+export * from './renderers/WebGLArrayRenderTarget.d.ts';
+export * from './renderers/shaders/ShaderLib.d.ts';
+export * from './renderers/shaders/UniformsLib.d.ts';
+export * from './renderers/shaders/UniformsUtils.d.ts';
+export * from './renderers/shaders/ShaderChunk.d.ts';
+export * from './renderers/webgl/WebGLBufferRenderer.d.ts';
+export * from './renderers/webgl/WebGLCapabilities.d.ts';
+export * from './renderers/webgl/WebGLClipping.d.ts';
+export * from './renderers/webgl/WebGLCubeUVMaps.d.ts';
+export * from './renderers/webgl/WebGLExtensions.d.ts';
+export * from './renderers/webgl/WebGLGeometries.d.ts';
+export * from './renderers/webgl/WebGLIndexedBufferRenderer.d.ts';
+export * from './renderers/webgl/WebGLInfo.d.ts';
+export * from './renderers/webgl/WebGLLights.d.ts';
+export * from './renderers/webgl/WebGLObjects.d.ts';
+export * from './renderers/webgl/WebGLProgram.d.ts';
+export * from './renderers/webgl/WebGLPrograms.d.ts';
+export * from './renderers/webgl/WebGLProperties.d.ts';
+export * from './renderers/webgl/WebGLRenderLists.d.ts';
+export * from './renderers/webgl/WebGLShader.d.ts';
+export * from './renderers/webgl/WebGLShadowMap.d.ts';
+export * from './renderers/webgl/WebGLState.d.ts';
+export * from './renderers/webgl/WebGLTextures.d.ts';
+export * from './renderers/webgl/WebGLUniforms.d.ts';
+export * from './renderers/webxr/WebXRController.d.ts';
+export * from './renderers/webxr/WebXRManager.d.ts';
 export { WebGLUtils } from './renderers/webgl/WebGLUtils.js';
 /**
  * Scenes
  */
-export * from './scenes/FogExp2';
-export * from './scenes/Fog';
-export * from './scenes/Scene';
+export * from './scenes/FogExp2.d.ts';
+export * from './scenes/Fog.d.ts';
+export * from './scenes/Scene.d.ts';
 /**
  * Textures
  */
-export * from './textures/VideoTexture';
-export * from './textures/DataTexture';
-export * from './textures/DataTexture2DArray';
-export * from './textures/DataTexture3D';
-export * from './textures/CompressedTexture';
-export * from './textures/CubeTexture';
-export * from './textures/Data3DTexture';
-export * from './textures/DataArrayTexture';
-export * from './textures/CanvasTexture';
-export * from './textures/DepthTexture';
-export * from './textures/FramebufferTexture';
-export * from './textures/Source';
-export * from './textures/Texture';
+export * from './textures/VideoTexture.d.ts';
+export * from './textures/DataTexture.d.ts';
+export * from './textures/DataTexture2DArray.d.ts';
+export * from './textures/DataTexture3D.d.ts';
+export * from './textures/CompressedTexture.d.ts';
+export * from './textures/CubeTexture.d.ts';
+export * from './textures/Data3DTexture.d.ts';
+export * from './textures/DataArrayTexture.d.ts';
+export * from './textures/CanvasTexture.d.ts';
+export * from './textures/DepthTexture.d.ts';
+export * from './textures/FramebufferTexture.d.ts';
+export * from './textures/Source.d.ts';
+export * from './textures/Texture.d.ts';

@@ -1,6 +1,6 @@
-import { Object3D } from './../core/Object3D';
-import { AudioListener } from './AudioListener';
-import { AudioContext } from './AudioContext';
+import { Object3D } from './../core/Object3D.d.ts';
+import { AudioListener } from './AudioListener.d.ts';
+import { AudioContext } from './AudioContext.d.ts';
 
 // Extras / Audio /////////////////////////////////////////////////////////////////////
 

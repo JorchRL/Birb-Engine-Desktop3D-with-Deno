@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, Object3D } from '../../../src/Three';
+import { Loader, LoadingManager, Object3D } from '../../../src/Three.d.ts';
 
 export class Rhino3dmLoader extends Loader {
     constructor(manager?: LoadingManager);

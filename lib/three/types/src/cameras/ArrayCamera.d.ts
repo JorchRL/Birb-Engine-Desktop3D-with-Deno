@@ -1,4 +1,4 @@
-import { PerspectiveCamera } from './PerspectiveCamera';
+import { PerspectiveCamera } from './PerspectiveCamera.d.ts';
 
 export class ArrayCamera extends PerspectiveCamera {
     constructor(cameras?: PerspectiveCamera[]);

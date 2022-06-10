@@ -1,4 +1,4 @@
-import { Shape, Loader, LoadingManager } from '../../../src/Three';
+import { Shape, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class FontLoader extends Loader {
     constructor(manager?: LoadingManager);

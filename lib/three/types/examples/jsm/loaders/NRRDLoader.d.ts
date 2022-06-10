@@ -1,6 +1,6 @@
-import { Loader, LoadingManager } from '../../../src/Three';
+import { Loader, LoadingManager } from '../../../src/Three.d.ts';
 
-import { Volume } from '../misc/Volume';
+import { Volume } from '../misc/Volume.d.ts';
 
 export class NRRDLoader extends Loader {
     constructor(manager?: LoadingManager);

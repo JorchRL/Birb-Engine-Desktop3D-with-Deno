@@ -1,8 +1,8 @@
-import { Vector3 } from './../math/Vector3';
-import { Line } from './../objects/Line';
-import { Mesh } from './../objects/Mesh';
-import { Object3D } from './../core/Object3D';
-import { ColorRepresentation } from '../utils';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Line } from './../objects/Line.d.ts';
+import { Mesh } from './../objects/Mesh.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 // Extras / Helpers /////////////////////////////////////////////////////////////////////
 

@@ -1,5 +1,5 @@
-import { Loader } from './Loader';
-import { LoadingManager } from './LoadingManager';
+import { Loader } from './Loader.d.ts';
+import { LoadingManager } from './LoadingManager.d.ts';
 
 /**
  * A loader for loading an image.

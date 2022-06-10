@@ -1,4 +1,4 @@
-import { BufferGeometry, Vector3 } from '../../../src/Three';
+import { BufferGeometry, Vector3 } from '../../../src/Three.d.ts';
 
 export interface RandomGenerator {
     random(): number;

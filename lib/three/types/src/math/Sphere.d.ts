@@ -1,7 +1,7 @@
-import { Vector3 } from './Vector3';
-import { Box3 } from './Box3';
-import { Plane } from './Plane';
-import { Matrix4 } from './Matrix4';
+import { Vector3 } from './Vector3.d.ts';
+import { Box3 } from './Box3.d.ts';
+import { Plane } from './Plane.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
 
 export class Sphere {
     constructor(center?: Vector3, radius?: number);

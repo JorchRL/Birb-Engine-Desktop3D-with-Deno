@@ -1,6 +1,6 @@
-import { Material } from './../materials/Material';
-import { Line } from './Line';
-import { BufferGeometry } from '../core/BufferGeometry';
+import { Material } from './../materials/Material.d.ts';
+import { Line } from './Line.d.ts';
+import { BufferGeometry } from '../core/BufferGeometry.d.ts';
 
 /**
  * @deprecated

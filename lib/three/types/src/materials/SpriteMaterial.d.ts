@@ -1,7 +1,7 @@
-import { ColorRepresentation } from '../utils';
-import { Color } from './../math/Color';
-import { Texture } from './../textures/Texture';
-import { MaterialParameters, Material } from './Material';
+import { ColorRepresentation } from '../utils.d.ts';
+import { Color } from './../math/Color.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { MaterialParameters, Material } from './Material.d.ts';
 
 export interface SpriteMaterialParameters extends MaterialParameters {
     color?: ColorRepresentation | undefined;

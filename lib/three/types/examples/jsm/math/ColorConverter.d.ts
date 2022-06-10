@@ -1,4 +1,4 @@
-import { Color } from '../../../src/Three';
+import { Color } from '../../../src/Three.d.ts';
 
 export interface HSL {
     h: number;

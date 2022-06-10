@@ -1,9 +1,9 @@
-import { Vector3 } from './../math/Vector3';
-import { Object3D } from './Object3D';
-import { Vector2 } from './../math/Vector2';
-import { Ray } from './../math/Ray';
-import { Camera } from './../cameras/Camera';
-import { Layers } from './Layers';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Object3D } from './Object3D.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { Ray } from './../math/Ray.d.ts';
+import { Camera } from './../cameras/Camera.d.ts';
+import { Layers } from './Layers.d.ts';
 
 export interface Face {
     a: number;

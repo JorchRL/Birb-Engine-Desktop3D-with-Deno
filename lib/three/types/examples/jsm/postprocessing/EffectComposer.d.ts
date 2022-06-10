@@ -1,7 +1,7 @@
-import { Clock, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three';
+import { Clock, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
-import { ShaderPass } from './ShaderPass';
+import { Pass } from './Pass.d.ts';
+import { ShaderPass } from './ShaderPass.d.ts';
 
 export { FullScreenQuad } from './Pass';
 export { Pass };

@@ -1,4 +1,4 @@
-import { BufferGeometry } from './../core/BufferGeometry';
+import { BufferGeometry } from './../core/BufferGeometry.d.ts';
 
 export class PlaneGeometry extends BufferGeometry {
     /**

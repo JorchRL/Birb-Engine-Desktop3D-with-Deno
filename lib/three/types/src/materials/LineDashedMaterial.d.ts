@@ -1,4 +1,4 @@
-import { LineBasicMaterial, LineBasicMaterialParameters } from './LineBasicMaterial';
+import { LineBasicMaterial, LineBasicMaterialParameters } from './LineBasicMaterial.d.ts';
 
 export interface LineDashedMaterialParameters extends LineBasicMaterialParameters {
     scale?: number | undefined;

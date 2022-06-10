@@ -1,7 +1,7 @@
-import { Texture } from './../textures/Texture';
-import { Vector2 } from './../math/Vector2';
-import { MeshStandardMaterialParameters, MeshStandardMaterial } from './MeshStandardMaterial';
-import { Color } from './../math/Color';
+import { Texture } from './../textures/Texture.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { MeshStandardMaterialParameters, MeshStandardMaterial } from './MeshStandardMaterial.d.ts';
+import { Color } from './../math/Color.d.ts';
 
 export interface MeshPhysicalMaterialParameters extends MeshStandardMaterialParameters {
     clearcoat?: number | undefined;

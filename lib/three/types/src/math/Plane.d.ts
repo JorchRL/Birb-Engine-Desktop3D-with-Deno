@@ -1,9 +1,9 @@
-import { Vector3 } from './Vector3';
-import { Sphere } from './Sphere';
-import { Line3 } from './Line3';
-import { Box3 } from './Box3';
-import { Matrix4 } from './Matrix4';
-import { Matrix3 } from './Matrix3';
+import { Vector3 } from './Vector3.d.ts';
+import { Sphere } from './Sphere.d.ts';
+import { Line3 } from './Line3.d.ts';
+import { Box3 } from './Box3.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Matrix3 } from './Matrix3.d.ts';
 
 export class Plane {
     constructor(normal?: Vector3, constant?: number);

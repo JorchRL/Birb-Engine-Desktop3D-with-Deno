@@ -1,4 +1,4 @@
-import { BufferGeometry, Group, InstancedMesh, Material, Object3D, Scene, Mesh } from '../../../src/Three';
+import { BufferGeometry, Group, InstancedMesh, Material, Object3D, Scene, Mesh } from '../../../src/Three.d.ts';
 
 export function createMeshesFromInstancedMesh(instancedMesh: InstancedMesh): Group;
 export function createMultiMaterialObject(geometry: BufferGeometry, materials: Material[]): Group;

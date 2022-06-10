@@ -1,4 +1,4 @@
-import { Interpolant } from '../Interpolant';
+import { Interpolant } from '../Interpolant.d.ts';
 
 export class QuaternionLinearInterpolant extends Interpolant {
     constructor(parameterPositions: any, samplesValues: any, sampleSize: number, resultBuffer?: any);

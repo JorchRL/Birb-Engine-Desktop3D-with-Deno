@@ -1,4 +1,4 @@
-import { Group, Loader, LoadingManager } from '../../../src/Three';
+import { Group, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class GCodeLoader extends Loader {
     constructor(manager?: LoadingManager);

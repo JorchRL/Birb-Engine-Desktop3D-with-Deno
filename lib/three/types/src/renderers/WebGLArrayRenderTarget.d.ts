@@ -1,5 +1,5 @@
-import { DataArrayTexture } from '../textures/DataArrayTexture';
-import { WebGLRenderTarget } from './WebGLRenderTarget';
+import { DataArrayTexture } from '../textures/DataArrayTexture.d.ts';
+import { WebGLRenderTarget } from './WebGLRenderTarget.d.ts';
 
 /**
  * This type of render target represents an array of textures.

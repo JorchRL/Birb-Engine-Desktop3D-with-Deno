@@ -1,6 +1,6 @@
-import { Matrix3 } from '../../../src/Three';
+import { Matrix3 } from '../../../src/Three.d.ts';
 
-import { VolumeSlice } from './VolumeSlice.js';
+import { VolumeSlice } from './VolumeSlice.js.d.ts';
 
 export class Volume {
     constructor(xLength?: number, yLength?: number, zLength?: number, type?: string, arrayBuffer?: ArrayLike<number>);

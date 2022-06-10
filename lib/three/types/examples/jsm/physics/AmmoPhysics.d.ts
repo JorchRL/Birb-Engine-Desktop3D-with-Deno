@@ -1,4 +1,4 @@
-import { Mesh, Vector3 } from '../../../src/Three';
+import { Mesh, Vector3 } from '../../../src/Three.d.ts';
 
 export class AmmoPhysics {
     constructor();

@@ -1,13 +1,13 @@
-import { Euler } from './Euler';
-import { Matrix3 } from './Matrix3';
-import { Matrix4 } from './Matrix4';
-import { Quaternion } from './Quaternion';
-import { Camera } from './../cameras/Camera';
-import { Spherical } from './Spherical';
-import { Cylindrical } from './Cylindrical';
-import { BufferAttribute } from './../core/BufferAttribute';
-import { InterleavedBufferAttribute } from './../core/InterleavedBufferAttribute';
-import { Vector } from './Vector2';
+import { Euler } from './Euler.d.ts';
+import { Matrix3 } from './Matrix3.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Quaternion } from './Quaternion.d.ts';
+import { Camera } from './../cameras/Camera.d.ts';
+import { Spherical } from './Spherical.d.ts';
+import { Cylindrical } from './Cylindrical.d.ts';
+import { BufferAttribute } from './../core/BufferAttribute.d.ts';
+import { InterleavedBufferAttribute } from './../core/InterleavedBufferAttribute.d.ts';
+import { Vector } from './Vector2.d.ts';
 
 export type Vector3Tuple = [number, number, number];
 

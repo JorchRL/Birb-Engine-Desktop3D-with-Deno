@@ -1,7 +1,7 @@
-import { MaterialParameters, Material } from './Material';
-import { Texture } from './../textures/Texture';
-import { Vector2 } from './../math/Vector2';
-import { NormalMapTypes } from '../constants';
+import { MaterialParameters, Material } from './Material.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { NormalMapTypes } from '../constants.d.ts';
 
 export interface MeshNormalMaterialParameters extends MaterialParameters {
     bumpMap?: Texture | null | undefined;

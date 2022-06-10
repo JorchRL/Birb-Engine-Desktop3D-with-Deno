@@ -1,10 +1,10 @@
 /// <reference types="webxr" />
 
-import { Vector4 } from '../../math/Vector4';
-import { ArrayCamera } from '../../cameras/ArrayCamera';
-import { PerspectiveCamera } from '../../cameras/PerspectiveCamera';
-import { EventDispatcher } from '../../core/EventDispatcher';
-import { XRTargetRaySpace, XRGripSpace, XRHandSpace } from './WebXRController';
+import { Vector4 } from '../../math/Vector4.d.ts';
+import { ArrayCamera } from '../../cameras/ArrayCamera.d.ts';
+import { PerspectiveCamera } from '../../cameras/PerspectiveCamera.d.ts';
+import { EventDispatcher } from '../../core/EventDispatcher.d.ts';
+import { XRTargetRaySpace, XRGripSpace, XRHandSpace } from './WebXRController.d.ts';
 
 export type WebXRCamera = PerspectiveCamera & { viewport: Vector4 };
 export type WebXRArrayCamera = Omit<ArrayCamera, 'cameras'> & { cameras: [WebXRCamera, WebXRCamera] };

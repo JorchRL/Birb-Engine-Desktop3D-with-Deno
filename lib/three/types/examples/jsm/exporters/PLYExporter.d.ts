@@ -1,4 +1,4 @@
-import { Object3D } from '../../../src/Three';
+import { Object3D } from '../../../src/Three.d.ts';
 
 export interface PLYExporterOptions {
     binary?: boolean;

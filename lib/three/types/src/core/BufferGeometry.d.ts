@@ -1,13 +1,13 @@
-import { BufferAttribute } from './BufferAttribute';
-import { Box3 } from './../math/Box3';
-import { Sphere } from './../math/Sphere';
-import { Matrix4 } from './../math/Matrix4';
-import { Quaternion } from './../math/Quaternion';
-import { Vector2 } from './../math/Vector2';
-import { Vector3 } from './../math/Vector3';
-import { EventDispatcher } from './EventDispatcher';
-import { InterleavedBufferAttribute } from './InterleavedBufferAttribute';
-import { BuiltinShaderAttributeName } from '../constants';
+import { BufferAttribute } from './BufferAttribute.d.ts';
+import { Box3 } from './../math/Box3.d.ts';
+import { Sphere } from './../math/Sphere.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { Quaternion } from './../math/Quaternion.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { EventDispatcher } from './EventDispatcher.d.ts';
+import { InterleavedBufferAttribute } from './InterleavedBufferAttribute.d.ts';
+import { BuiltinShaderAttributeName } from '../constants.d.ts';
 
 /**
  * This is a superefficent class for geometries because it saves all data in buffers.

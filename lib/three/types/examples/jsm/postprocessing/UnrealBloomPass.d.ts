@@ -1,6 +1,6 @@
-import { Color, MeshBasicMaterial, ShaderMaterial, Vector2, Vector3, WebGLRenderTarget } from '../../../src/Three';
+import { Color, MeshBasicMaterial, ShaderMaterial, Vector2, Vector3, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class UnrealBloomPass extends Pass {
     constructor(resolution: Vector2, strength: number, radius: number, threshold: number);

@@ -1,8 +1,8 @@
-import { DirectionalLight } from './../lights/DirectionalLight';
-import { Line } from './../objects/Line';
-import { Matrix4 } from './../math/Matrix4';
-import { Object3D } from './../core/Object3D';
-import { ColorRepresentation } from '../utils';
+import { DirectionalLight } from './../lights/DirectionalLight.d.ts';
+import { Line } from './../objects/Line.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export class DirectionalLightHelper extends Object3D {
     /**

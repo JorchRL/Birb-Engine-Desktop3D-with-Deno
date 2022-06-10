@@ -6,7 +6,7 @@ import {
     Mesh,
     Line,
     Points,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
 export function mergeBufferGeometries(geometries: BufferGeometry[], useGroups?: boolean): BufferGeometry;
 export function mergeBufferAttributes(attributes: BufferAttribute[]): BufferAttribute;

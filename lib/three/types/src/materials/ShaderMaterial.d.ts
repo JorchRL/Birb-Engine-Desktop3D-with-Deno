@@ -1,6 +1,6 @@
-import { IUniform } from '../renderers/shaders/UniformsLib';
-import { MaterialParameters, Material } from './Material';
-import { GLSLVersion } from '../constants';
+import { IUniform } from '../renderers/shaders/UniformsLib.d.ts';
+import { MaterialParameters, Material } from './Material.d.ts';
+import { GLSLVersion } from '../constants.d.ts';
 
 export interface ShaderMaterialParameters extends MaterialParameters {
     uniforms?: { [uniform: string]: IUniform } | undefined;

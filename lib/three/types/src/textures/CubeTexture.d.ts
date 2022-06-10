@@ -1,5 +1,5 @@
-import { Texture } from './Texture';
-import { Mapping, Wrapping, TextureFilter, PixelFormat, TextureDataType, TextureEncoding } from '../constants';
+import { Texture } from './Texture.d.ts';
+import { Mapping, Wrapping, TextureFilter, PixelFormat, TextureDataType, TextureEncoding } from '../constants.d.ts';
 
 export class CubeTexture extends Texture {
     /**

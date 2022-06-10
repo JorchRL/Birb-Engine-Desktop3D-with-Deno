@@ -1,4 +1,4 @@
-import { LoadingManager, DataTextureLoader, TextureDataType, PixelFormat } from '../../../src/Three';
+import { LoadingManager, DataTextureLoader, TextureDataType, PixelFormat } from '../../../src/Three.d.ts';
 
 export interface EXR {
     header: object;

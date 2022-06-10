@@ -1,9 +1,9 @@
-import { AnimationClip } from './AnimationClip';
-import { AnimationAction } from './AnimationAction';
-import { AnimationBlendMode } from '../constants';
-import { EventDispatcher } from './../core/EventDispatcher';
-import { Object3D } from '../core/Object3D';
-import { AnimationObjectGroup } from './AnimationObjectGroup';
+import { AnimationClip } from './AnimationClip.d.ts';
+import { AnimationAction } from './AnimationAction.d.ts';
+import { AnimationBlendMode } from '../constants.d.ts';
+import { EventDispatcher } from './../core/EventDispatcher.d.ts';
+import { Object3D } from '../core/Object3D.d.ts';
+import { AnimationObjectGroup } from './AnimationObjectGroup.d.ts';
 
 export class AnimationMixer extends EventDispatcher {
     constructor(root: Object3D | AnimationObjectGroup);

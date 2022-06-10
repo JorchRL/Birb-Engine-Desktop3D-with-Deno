@@ -1,8 +1,8 @@
-import { Vector4 } from './../math/Vector4';
-import { Texture } from './../textures/Texture';
-import { DepthTexture } from './../textures/DepthTexture';
-import { EventDispatcher } from './../core/EventDispatcher';
-import { Wrapping, TextureFilter, TextureDataType, TextureEncoding } from '../constants';
+import { Vector4 } from './../math/Vector4.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { DepthTexture } from './../textures/DepthTexture.d.ts';
+import { EventDispatcher } from './../core/EventDispatcher.d.ts';
+import { Wrapping, TextureFilter, TextureDataType, TextureEncoding } from '../constants.d.ts';
 
 export interface WebGLRenderTargetOptions {
     wrapS?: Wrapping | undefined;

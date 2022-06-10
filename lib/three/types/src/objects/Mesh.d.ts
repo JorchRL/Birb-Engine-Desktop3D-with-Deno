@@ -1,8 +1,8 @@
-import { Material } from './../materials/Material';
-import { Raycaster } from './../core/Raycaster';
-import { Object3D } from './../core/Object3D';
-import { BufferGeometry } from '../core/BufferGeometry';
-import { Intersection } from '../core/Raycaster';
+import { Material } from './../materials/Material.d.ts';
+import { Raycaster } from './../core/Raycaster.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { BufferGeometry } from '../core/BufferGeometry.d.ts';
+import { Intersection } from '../core/Raycaster.d.ts';
 
 export class Mesh<
     TGeometry extends BufferGeometry = BufferGeometry,

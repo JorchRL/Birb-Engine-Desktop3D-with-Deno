@@ -1,7 +1,7 @@
-import { Object3D } from './../core/Object3D';
-import { Matrix4 } from './../math/Matrix4';
-import { Bone } from './../objects/Bone';
-import { LineSegments } from './../objects/LineSegments';
+import { Object3D } from './../core/Object3D.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { Bone } from './../objects/Bone.d.ts';
+import { LineSegments } from './../objects/LineSegments.d.ts';
 
 export class SkeletonHelper extends LineSegments {
     constructor(object: Object3D);

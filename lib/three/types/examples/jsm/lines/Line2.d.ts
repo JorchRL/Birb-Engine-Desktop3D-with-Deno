@@ -1,6 +1,6 @@
-import { LineGeometry } from './LineGeometry';
-import { LineSegments2 } from './LineSegments2';
-import { LineMaterial } from './LineMaterial';
+import { LineGeometry } from './LineGeometry.d.ts';
+import { LineSegments2 } from './LineSegments2.d.ts';
+import { LineMaterial } from './LineMaterial.d.ts';
 
 export class Line2 extends LineSegments2 {
     geometry: LineGeometry;

@@ -1,11 +1,11 @@
-import { Loader } from './Loader';
-import { LoadingManager } from './LoadingManager';
-import { Object3D } from './../core/Object3D';
-import { Texture } from './../textures/Texture';
-import { Material } from './../materials/Material';
-import { AnimationClip } from './../animation/AnimationClip';
-import { InstancedBufferGeometry } from '../core/InstancedBufferGeometry';
-import { BufferGeometry } from '../core/BufferGeometry';
+import { Loader } from './Loader.d.ts';
+import { LoadingManager } from './LoadingManager.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { Material } from './../materials/Material.d.ts';
+import { AnimationClip } from './../animation/AnimationClip.d.ts';
+import { InstancedBufferGeometry } from '../core/InstancedBufferGeometry.d.ts';
+import { BufferGeometry } from '../core/BufferGeometry.d.ts';
 
 export class ObjectLoader extends Loader {
     constructor(manager?: LoadingManager);

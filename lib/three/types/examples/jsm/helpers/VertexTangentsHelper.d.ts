@@ -1,4 +1,4 @@
-import { Object3D, LineSegments } from '../../../src/Three';
+import { Object3D, LineSegments } from '../../../src/Three.d.ts';
 
 export class VertexTangentsHelper extends LineSegments {
     constructor(object: Object3D, size?: number, hex?: number);

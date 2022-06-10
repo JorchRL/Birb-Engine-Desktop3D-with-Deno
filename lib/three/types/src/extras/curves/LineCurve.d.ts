@@ -1,5 +1,5 @@
-import { Vector2 } from './../../math/Vector2';
-import { Curve } from './../core/Curve';
+import { Vector2 } from './../../math/Vector2.d.ts';
+import { Curve } from './../core/Curve.d.ts';
 
 export class LineCurve extends Curve<Vector2> {
     constructor(v1: Vector2, v2: Vector2);

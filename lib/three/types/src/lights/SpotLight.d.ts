@@ -1,9 +1,9 @@
-import { Color } from './../math/Color';
-import { Vector3 } from '../math/Vector3';
-import { Object3D } from './../core/Object3D';
-import { SpotLightShadow } from './SpotLightShadow';
-import { Light } from './Light';
-import { ColorRepresentation } from '../utils';
+import { Color } from './../math/Color.d.ts';
+import { Vector3 } from '../math/Vector3.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { SpotLightShadow } from './SpotLightShadow.d.ts';
+import { Light } from './Light.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 /**
  * A point light that can cast shadow in one direction.

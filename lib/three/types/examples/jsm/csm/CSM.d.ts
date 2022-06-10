@@ -1,4 +1,4 @@
-import { Camera, Vector3, DirectionalLight, Material, Vector2, Object3D } from '../../../src/Three';
+import { Camera, Vector3, DirectionalLight, Material, Vector2, Object3D } from '../../../src/Three.d.ts';
 
 export enum CMSMode {
     practical = 'practical',
@@ -58,4 +58,4 @@ export class CSM {
     dispose(): void;
 }
 
-import CSMFrustrum from './CSMFrustum.js';
+import CSMFrustrum from './CSMFrustum.js.d.ts';

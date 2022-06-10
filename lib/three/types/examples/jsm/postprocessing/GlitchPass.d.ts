@@ -1,6 +1,6 @@
-import { ShaderMaterial, DataTexture } from '../../../src/Three';
+import { ShaderMaterial, DataTexture } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class GlitchPass extends Pass {
     constructor(dt_size?: number);

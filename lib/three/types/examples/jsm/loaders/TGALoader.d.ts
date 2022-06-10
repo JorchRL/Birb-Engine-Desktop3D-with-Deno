@@ -1,4 +1,4 @@
-import { DataTexture, DataTextureLoader, LoadingManager } from '../../../src/Three';
+import { DataTexture, DataTextureLoader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class TGALoader extends DataTextureLoader {
     constructor(manager?: LoadingManager);

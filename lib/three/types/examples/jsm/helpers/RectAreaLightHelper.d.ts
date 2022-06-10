@@ -1,4 +1,4 @@
-import { Line, RectAreaLight, ColorRepresentation } from '../../../src/Three';
+import { Line, RectAreaLight, ColorRepresentation } from '../../../src/Three.d.ts';
 
 export class RectAreaLightHelper extends Line {
     constructor(light: RectAreaLight, color?: ColorRepresentation);

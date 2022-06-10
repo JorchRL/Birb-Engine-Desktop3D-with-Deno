@@ -1,6 +1,6 @@
-import { WebGLRenderer, Vector2 } from '../../../src/Three';
+import { WebGLRenderer, Vector2 } from '../../../src/Three.d.ts';
 
-import { SelectionBox } from './SelectionBox';
+import { SelectionBox } from './SelectionBox.d.ts';
 
 export class SelectionHelper {
     constructor(selectionBox: SelectionBox, renderer: WebGLRenderer, cssClassName: string);

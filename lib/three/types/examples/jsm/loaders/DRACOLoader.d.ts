@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, BufferGeometry } from '../../../src/Three';
+import { Loader, LoadingManager, BufferGeometry } from '../../../src/Three.d.ts';
 
 export class DRACOLoader extends Loader {
     constructor(manager?: LoadingManager);

@@ -1,10 +1,10 @@
-import { FogBase } from './Fog';
-import { Material } from './../materials/Material';
-import { Object3D } from './../core/Object3D';
-import { Color } from '../math/Color';
-import { Texture } from '../textures/Texture';
-import { WebGLRenderer } from '../renderers/WebGLRenderer';
-import { Camera } from '../cameras/Camera';
+import { FogBase } from './Fog.d.ts';
+import { Material } from './../materials/Material.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { Color } from '../math/Color.d.ts';
+import { Texture } from '../textures/Texture.d.ts';
+import { WebGLRenderer } from '../renderers/WebGLRenderer.d.ts';
+import { Camera } from '../cameras/Camera.d.ts';
 
 // Scenes /////////////////////////////////////////////////////////////////////
 

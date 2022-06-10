@@ -1,6 +1,6 @@
-import { Matrix4 } from './Matrix4';
-import { Quaternion } from './Quaternion';
-import { Vector3 } from './Vector3';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Quaternion } from './Quaternion.d.ts';
+import { Vector3 } from './Vector3.d.ts';
 
 export class Euler {
     constructor(x?: number, y?: number, z?: number, order?: string);

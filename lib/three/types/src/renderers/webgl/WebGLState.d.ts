@@ -5,11 +5,11 @@ import {
     BlendingSrcFactor,
     BlendingDstFactor,
     DepthModes,
-} from '../../constants';
-import { WebGLCapabilities } from './WebGLCapabilities';
-import { WebGLExtensions } from './WebGLExtensions';
-import { Material } from '../../materials/Material';
-import { Vector4 } from '../../math/Vector4';
+} from '../../constants.d.ts';
+import { WebGLCapabilities } from './WebGLCapabilities.d.ts';
+import { WebGLExtensions } from './WebGLExtensions.d.ts';
+import { Material } from '../../materials/Material.d.ts';
+import { Vector4 } from '../../math/Vector4.d.ts';
 
 export class WebGLColorBuffer {
     constructor();

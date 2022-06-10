@@ -1,7 +1,7 @@
-import { ColorSpace } from '../constants';
-import { ColorRepresentation } from '../utils';
+import { ColorSpace } from '../constants.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
-import { BufferAttribute } from './../core/BufferAttribute';
+import { BufferAttribute } from './../core/BufferAttribute.d.ts';
 
 export { SRGBToLinear } from './ColorManagement';
 

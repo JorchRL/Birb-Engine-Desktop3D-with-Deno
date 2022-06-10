@@ -1,5 +1,5 @@
-import { Object3D } from './../core/Object3D';
-import { AudioContext } from './AudioContext';
+import { Object3D } from './../core/Object3D.d.ts';
+import { AudioContext } from './AudioContext.d.ts';
 
 export class AudioListener extends Object3D {
     constructor();

@@ -1,4 +1,4 @@
-import { Vector3 } from './Vector3';
+import { Vector3 } from './Vector3.d.ts';
 
 export class Cylindrical {
     constructor(radius?: number, theta?: number, y?: number);

@@ -1,8 +1,8 @@
-import { Curve } from './../extras/core/Curve';
-import { Vector2 } from './../math/Vector2';
-import { Vector3 } from './../math/Vector3';
-import { Shape } from './../extras/core/Shape';
-import { BufferGeometry } from './../core/BufferGeometry';
+import { Curve } from './../extras/core/Curve.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Shape } from './../extras/core/Shape.d.ts';
+import { BufferGeometry } from './../core/BufferGeometry.d.ts';
 
 export interface ExtrudeGeometryOptions {
     /**

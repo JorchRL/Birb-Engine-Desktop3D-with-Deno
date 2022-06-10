@@ -1,8 +1,8 @@
-import { Vector3 } from './Vector3';
-import { Sphere } from './Sphere';
-import { Plane } from './Plane';
-import { Box3 } from './Box3';
-import { Matrix4 } from './Matrix4';
+import { Vector3 } from './Vector3.d.ts';
+import { Sphere } from './Sphere.d.ts';
+import { Plane } from './Plane.d.ts';
+import { Box3 } from './Box3.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
 
 export class Ray {
     constructor(origin?: Vector3, direction?: Vector3);

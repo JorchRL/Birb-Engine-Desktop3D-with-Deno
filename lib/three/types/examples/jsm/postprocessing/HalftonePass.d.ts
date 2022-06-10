@@ -1,6 +1,6 @@
-import { ShaderMaterial } from '../../../src/Three';
+import { ShaderMaterial } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export interface HalftonePassParameters {
     shape?: number;

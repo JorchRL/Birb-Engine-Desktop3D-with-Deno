@@ -1,18 +1,18 @@
-import { Vector3 } from './../math/Vector3';
-import { Euler } from './../math/Euler';
-import { Quaternion } from './../math/Quaternion';
-import { Matrix4 } from './../math/Matrix4';
-import { Matrix3 } from './../math/Matrix3';
-import { Layers } from './Layers';
-import { WebGLRenderer } from './../renderers/WebGLRenderer';
-import { Scene } from './../scenes/Scene';
-import { Camera } from './../cameras/Camera';
-import { Material } from './../materials/Material';
-import { Group } from './../objects/Group';
-import { Intersection, Raycaster } from './Raycaster';
-import { EventDispatcher, BaseEvent, Event } from './EventDispatcher';
-import { BufferGeometry } from './BufferGeometry';
-import { AnimationClip } from '../animation/AnimationClip';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Euler } from './../math/Euler.d.ts';
+import { Quaternion } from './../math/Quaternion.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { Matrix3 } from './../math/Matrix3.d.ts';
+import { Layers } from './Layers.d.ts';
+import { WebGLRenderer } from './../renderers/WebGLRenderer.d.ts';
+import { Scene } from './../scenes/Scene.d.ts';
+import { Camera } from './../cameras/Camera.d.ts';
+import { Material } from './../materials/Material.d.ts';
+import { Group } from './../objects/Group.d.ts';
+import { Intersection, Raycaster } from './Raycaster.d.ts';
+import { EventDispatcher, BaseEvent, Event } from './EventDispatcher.d.ts';
+import { BufferGeometry } from './BufferGeometry.d.ts';
+import { AnimationClip } from '../animation/AnimationClip.d.ts';
 
 /**
  * Base class for scene graph objects

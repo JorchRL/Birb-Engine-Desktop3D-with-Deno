@@ -1,7 +1,7 @@
-import { AnimationMixer } from './AnimationMixer';
-import { AnimationClip } from './AnimationClip';
-import { AnimationActionLoopStyles, AnimationBlendMode } from '../constants';
-import { Object3D } from '../core/Object3D';
+import { AnimationMixer } from './AnimationMixer.d.ts';
+import { AnimationClip } from './AnimationClip.d.ts';
+import { AnimationActionLoopStyles, AnimationBlendMode } from '../constants.d.ts';
+import { Object3D } from '../core/Object3D.d.ts';
 // Animation ////////////////////////////////////////////////////////////////////////////////////////
 
 export class AnimationAction {

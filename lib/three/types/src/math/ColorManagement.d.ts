@@ -1,5 +1,5 @@
-import { LinearSRGBColorSpace, SRGBColorSpace } from '../constants';
-import { Color } from './Color';
+import { LinearSRGBColorSpace, SRGBColorSpace } from '../constants.d.ts';
+import { Color } from './Color.d.ts';
 
 export function SRGBToLinear(c: number): number;
 

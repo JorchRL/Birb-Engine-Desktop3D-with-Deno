@@ -1,7 +1,7 @@
-import { KeyframeTrack } from './KeyframeTrack';
-import { Vector3 } from './../math/Vector3';
-import { Bone } from './../objects/Bone';
-import { AnimationBlendMode } from '../constants';
+import { KeyframeTrack } from './KeyframeTrack.d.ts';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Bone } from './../objects/Bone.d.ts';
+import { AnimationBlendMode } from '../constants.d.ts';
 
 export interface MorphTarget {
     name: string;

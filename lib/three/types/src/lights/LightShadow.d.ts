@@ -1,9 +1,9 @@
-import { Camera } from './../cameras/Camera';
-import { Light } from './../lights/Light';
-import { Vector2 } from './../math/Vector2';
-import { Vector4 } from './../math/Vector4';
-import { Matrix4 } from './../math/Matrix4';
-import { WebGLRenderTarget } from '../renderers/WebGLRenderTarget';
+import { Camera } from './../cameras/Camera.d.ts';
+import { Light } from './../lights/Light.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { Vector4 } from './../math/Vector4.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { WebGLRenderTarget } from '../renderers/WebGLRenderTarget.d.ts';
 
 export class LightShadow {
     constructor(camera: Camera);

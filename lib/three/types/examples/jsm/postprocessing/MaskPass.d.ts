@@ -1,6 +1,6 @@
-import { Scene, Camera } from '../../../src/Three';
+import { Scene, Camera } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class MaskPass extends Pass {
     constructor(scene: Scene, camera: Camera);

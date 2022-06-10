@@ -1,5 +1,5 @@
-import { Light } from './Light';
-import { ColorRepresentation } from '../utils';
+import { Light } from './Light.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export class RectAreaLight extends Light {
     constructor(color?: ColorRepresentation, intensity?: number, width?: number, height?: number);

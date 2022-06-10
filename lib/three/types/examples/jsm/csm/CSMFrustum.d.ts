@@ -1,4 +1,4 @@
-import { Matrix4, Vector3 } from '../../../src/Three';
+import { Matrix4, Vector3 } from '../../../src/Three.d.ts';
 
 export interface CSMFrustumVerticies {
     near: Vector3[];

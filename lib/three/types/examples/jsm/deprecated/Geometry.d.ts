@@ -13,7 +13,7 @@ import {
     AnimationClip,
     EventDispatcher,
     Object3D,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
 /**
  * @deprecated Use Face3 instead.

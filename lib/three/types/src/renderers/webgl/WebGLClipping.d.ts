@@ -1,6 +1,6 @@
-import { Camera } from './../../cameras/Camera';
-import { Material } from './../../materials/Material';
-import { WebGLProperties } from './WebGLProperties';
+import { Camera } from './../../cameras/Camera.d.ts';
+import { Material } from './../../materials/Material.d.ts';
+import { WebGLProperties } from './WebGLProperties.d.ts';
 
 export class WebGLClipping {
     constructor(properties: WebGLProperties);

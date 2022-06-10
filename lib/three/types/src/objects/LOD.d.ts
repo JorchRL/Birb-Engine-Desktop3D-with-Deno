@@ -1,7 +1,7 @@
-import { Object3D } from './../core/Object3D';
-import { Raycaster } from './../core/Raycaster';
-import { Camera } from './../cameras/Camera';
-import { Intersection } from '../core/Raycaster';
+import { Object3D } from './../core/Object3D.d.ts';
+import { Raycaster } from './../core/Raycaster.d.ts';
+import { Camera } from './../cameras/Camera.d.ts';
+import { Intersection } from '../core/Raycaster.d.ts';
 
 export class LOD extends Object3D {
     constructor();

@@ -6,7 +6,7 @@ import {
     Texture,
     TextureEncoding,
     Vector2,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
 export interface Water2Options {
     color?: ColorRepresentation;

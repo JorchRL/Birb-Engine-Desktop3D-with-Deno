@@ -1,4 +1,4 @@
-import { EventDispatcher, Camera, Scene, Vector3, Raycaster } from '../../../src/Three';
+import { EventDispatcher, Camera, Scene, Vector3, Raycaster } from '../../../src/Three.d.ts';
 
 export enum ArcballControlsMouseActionOperations {
     PAN = 'PAN',

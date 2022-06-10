@@ -1,7 +1,7 @@
-import { Color } from './../math/Color';
-import { Vector3 } from '../math/Vector3';
-import { Light } from './Light';
-import { ColorRepresentation } from '../utils';
+import { Color } from './../math/Color.d.ts';
+import { Vector3 } from '../math/Vector3.d.ts';
+import { Light } from './Light.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export class HemisphereLight extends Light {
     /**

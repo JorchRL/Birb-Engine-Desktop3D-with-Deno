@@ -1,5 +1,5 @@
-import { Matrix4 } from './Matrix4';
-import { Vector3 } from './Vector3';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Vector3 } from './Vector3.d.ts';
 
 export type Matrix3Tuple = [number, number, number, number, number, number, number, number, number];
 

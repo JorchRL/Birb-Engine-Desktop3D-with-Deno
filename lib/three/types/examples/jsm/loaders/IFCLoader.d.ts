@@ -7,7 +7,7 @@ import {
     Object3D,
     Mesh,
     BufferAttribute,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
 declare class IFCLoader extends Loader {
     ifcManager: IFCManager;
@@ -120,7 +120,7 @@ export class IFCManager {
      *
      * Example to get all the standard walls of a project:
      * ```js
-     * import { IFCWALLSTANDARDCASE } from 'web-ifc';
+     * import { IFCWALLSTANDARDCASE } from 'web-ifc.d.ts';
      * const walls = ifcLoader.getAllItemsOfType(IFCWALLSTANDARDCASE);
      * ```
      * @modelID ID of the IFC model.
@@ -301,7 +301,7 @@ export class IFCModel extends Mesh {
      *
      * Example to get all the standard walls of a project:
      * ```js
-     * import { IFCWALLSTANDARDCASE } from 'web-ifc';
+     * import { IFCWALLSTANDARDCASE } from 'web-ifc.d.ts';
      * const walls = ifcLoader.getAllItemsOfType(IFCWALLSTANDARDCASE);
      * ```
      * @ifcType The type of IFC items to get.

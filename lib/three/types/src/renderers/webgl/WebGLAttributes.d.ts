@@ -1,6 +1,6 @@
-import { WebGLCapabilities } from './WebGLCapabilities';
-import { BufferAttribute } from '../../core/BufferAttribute';
-import { InterleavedBufferAttribute } from '../../core/InterleavedBufferAttribute';
+import { WebGLCapabilities } from './WebGLCapabilities.d.ts';
+import { BufferAttribute } from '../../core/BufferAttribute.d.ts';
+import { InterleavedBufferAttribute } from '../../core/InterleavedBufferAttribute.d.ts';
 
 export class WebGLAttributes {
     constructor(gl: WebGLRenderingContext | WebGL2RenderingContext, capabilities: WebGLCapabilities);

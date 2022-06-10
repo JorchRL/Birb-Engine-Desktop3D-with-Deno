@@ -1,6 +1,6 @@
-import { Curve, Vector3 } from '../../../src/Three';
+import { Curve, Vector3 } from '../../../src/Three.d.ts';
 
-import { ParametricGeometry } from './ParametricGeometry';
+import { ParametricGeometry } from './ParametricGeometry.d.ts';
 
 export namespace ParametricGeometries {
     function klein(v: number, u: number, target: Vector3): Vector3;

@@ -1,6 +1,6 @@
-import { Group, Object3D, Texture } from '../../../src/Three';
+import { Group, Object3D, Texture } from '../../../src/Three.d.ts';
 
-import { GLTFLoader } from '../loaders/GLTFLoader';
+import { GLTFLoader } from '../loaders/GLTFLoader.d.ts';
 
 export class XRControllerModel extends Object3D {
     constructor();

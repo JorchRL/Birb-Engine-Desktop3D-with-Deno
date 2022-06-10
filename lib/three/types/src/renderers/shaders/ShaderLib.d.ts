@@ -1,4 +1,4 @@
-import { IUniform } from './UniformsLib';
+import { IUniform } from './UniformsLib.d.ts';
 
 export interface Shader {
     uniforms: { [uniform: string]: IUniform };

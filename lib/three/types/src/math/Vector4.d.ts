@@ -1,7 +1,7 @@
-import { Matrix4 } from './Matrix4';
-import { Quaternion } from './Quaternion';
-import { BufferAttribute } from './../core/BufferAttribute';
-import { Vector } from './Vector2';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Quaternion } from './Quaternion.d.ts';
+import { BufferAttribute } from './../core/BufferAttribute.d.ts';
+import { Vector } from './Vector2.d.ts';
 
 export type Vector4Tuple = [number, number, number, number];
 

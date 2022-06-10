@@ -1,7 +1,7 @@
-import { Group, Object3D } from '../../../src/Three';
+import { Group, Object3D } from '../../../src/Three.d.ts';
 
-import { XRHandPrimitiveModel, XRHandPrimitiveModelOptions } from './XRHandPrimitiveModel';
-import { XRHandMeshModel } from './XRHandMeshModel';
+import { XRHandPrimitiveModel, XRHandPrimitiveModelOptions } from './XRHandPrimitiveModel.d.ts';
+import { XRHandMeshModel } from './XRHandMeshModel.d.ts';
 
 export type XRHandModelHandedness = 'left' | 'right';
 

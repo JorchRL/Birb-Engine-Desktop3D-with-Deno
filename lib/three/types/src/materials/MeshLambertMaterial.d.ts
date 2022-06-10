@@ -1,8 +1,8 @@
-import { Color } from './../math/Color';
-import { Texture } from './../textures/Texture';
-import { MaterialParameters, Material } from './Material';
-import { Combine } from '../constants';
-import { ColorRepresentation } from '../utils';
+import { Color } from './../math/Color.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { MaterialParameters, Material } from './Material.d.ts';
+import { Combine } from '../constants.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export interface MeshLambertMaterialParameters extends MaterialParameters {
     color?: ColorRepresentation | undefined;

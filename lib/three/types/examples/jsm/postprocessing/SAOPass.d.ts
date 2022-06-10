@@ -10,9 +10,9 @@ import {
     WebGLRenderer,
     WebGLRenderTarget,
     ColorRepresentation,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export enum OUTPUT {
     Beauty,

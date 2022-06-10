@@ -1,6 +1,6 @@
-import { Color } from './../math/Color';
-import { LightShadow } from './LightShadow';
-import { Object3D } from './../core/Object3D';
+import { Color } from './../math/Color.d.ts';
+import { LightShadow } from './LightShadow.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
 
 // Lights //////////////////////////////////////////////////////////////////////////////////
 

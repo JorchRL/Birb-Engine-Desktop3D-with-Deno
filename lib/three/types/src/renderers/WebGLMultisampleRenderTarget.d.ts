@@ -1,4 +1,4 @@
-import { WebGLRenderTarget } from './WebGLRenderTarget';
+import { WebGLRenderTarget } from './WebGLRenderTarget.d.ts';
 
 /**
  * @deprecated THREE.WebGLMultisampleRenderTarget has been removed. Use a normal {@link WebGLRenderTarget render target} and set the "samples" property to greater 0 to enable multisampling.

@@ -1,4 +1,4 @@
-import { DirectionalLight, Group, LightProbe, Texture, WebGLRenderer } from '../../../src/Three';
+import { DirectionalLight, Group, LightProbe, Texture, WebGLRenderer } from '../../../src/Three.d.ts';
 
 export class SessionLightProbe {
     xrLight: XREstimatedLight;

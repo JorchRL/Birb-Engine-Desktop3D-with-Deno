@@ -1,10 +1,10 @@
-import { WebGLCapabilities } from './WebGLCapabilities';
-import { Scene } from './../../scenes/Scene';
-import { Camera } from './../../cameras/Camera';
-import { WebGLRenderer } from '../WebGLRenderer';
-import { ShadowMapType } from '../../constants';
-import { WebGLObjects } from './WebGLObjects';
-import { Light } from '../../lights/Light';
+import { WebGLCapabilities } from './WebGLCapabilities.d.ts';
+import { Scene } from './../../scenes/Scene.d.ts';
+import { Camera } from './../../cameras/Camera.d.ts';
+import { WebGLRenderer } from '../WebGLRenderer.d.ts';
+import { ShadowMapType } from '../../constants.d.ts';
+import { WebGLObjects } from './WebGLObjects.d.ts';
+import { Light } from '../../lights/Light.d.ts';
 
 export class WebGLShadowMap {
     constructor(_renderer: WebGLRenderer, _objects: WebGLObjects, _capabilities: WebGLCapabilities);

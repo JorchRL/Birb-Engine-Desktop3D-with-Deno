@@ -1,6 +1,6 @@
-import { ColorRepresentation } from '../utils';
-import { Color } from './../math/Color';
-import { MaterialParameters, Material } from './Material';
+import { ColorRepresentation } from '../utils.d.ts';
+import { Color } from './../math/Color.d.ts';
+import { MaterialParameters, Material } from './Material.d.ts';
 
 export interface LineBasicMaterialParameters extends MaterialParameters {
     color?: ColorRepresentation | undefined;

@@ -12,7 +12,7 @@ import {
     WebGLRenderer,
     Scene,
     WebGLRenderTarget,
-} from './../../../src/Three';
+} from './../../../src/Three.d.ts';
 
 export interface UVBoxes {
     w: number;

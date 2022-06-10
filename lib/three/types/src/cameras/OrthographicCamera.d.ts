@@ -1,4 +1,4 @@
-import { Camera } from './Camera';
+import { Camera } from './Camera.d.ts';
 
 /**
  * Camera with orthographic projection

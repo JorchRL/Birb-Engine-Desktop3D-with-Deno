@@ -1,4 +1,4 @@
-import { BufferGeometry, Material, Mesh } from '../../../src/Three';
+import { BufferGeometry, Material, Mesh } from '../../../src/Three.d.ts';
 
 export class MorphBlendMesh extends Mesh {
     constructor(geometry: BufferGeometry, material: Material);

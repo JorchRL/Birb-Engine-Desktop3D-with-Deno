@@ -1,4 +1,4 @@
-import { Mesh } from 'three';
+import { Mesh } from 'three.d.ts';
 
 export class HTMLMesh extends Mesh {
     constructor(dom: HTMLElement);

@@ -1,4 +1,4 @@
-import { Uniform } from '../../../src/Three';
+import { Uniform } from '../../../src/Three.d.ts';
 
 export interface BokehShaderUniforms {
     textureWidth: Uniform;

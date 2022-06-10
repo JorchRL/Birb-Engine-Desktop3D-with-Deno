@@ -10,9 +10,9 @@ import {
     ShaderMaterial,
     WebGLRenderTarget,
     Texture,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class OutlinePass extends Pass {
     constructor(resolution: Vector2, scene: Scene, camera: Camera, selectedObjects?: Object3D[]);

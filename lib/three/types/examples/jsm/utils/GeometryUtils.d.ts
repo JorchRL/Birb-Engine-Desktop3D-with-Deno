@@ -1,4 +1,4 @@
-import { Vector3 } from '../../../src/Three';
+import { Vector3 } from '../../../src/Three.d.ts';
 
 export namespace GeometryUtils {
     function hilbert2D(

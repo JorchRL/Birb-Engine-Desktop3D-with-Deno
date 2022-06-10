@@ -1,5 +1,5 @@
-import { Texture } from './Texture';
-import { TextureFilter } from '../constants';
+import { Texture } from './Texture.d.ts';
+import { TextureFilter } from '../constants.d.ts';
 
 export class Data3DTexture extends Texture {
     constructor(data: BufferSource, width: number, height: number, depth: number);

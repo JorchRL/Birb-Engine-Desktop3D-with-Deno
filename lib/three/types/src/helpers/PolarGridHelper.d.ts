@@ -1,5 +1,5 @@
-import { LineSegments } from '../objects/LineSegments';
-import { ColorRepresentation } from '../utils';
+import { LineSegments } from '../objects/LineSegments.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export class PolarGridHelper extends LineSegments {
     /**

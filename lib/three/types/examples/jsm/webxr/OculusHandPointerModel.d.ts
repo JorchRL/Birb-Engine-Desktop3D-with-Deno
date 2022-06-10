@@ -1,4 +1,4 @@
-import 'webxr';
+import 'webxr.d.ts';
 
 import {
     BufferGeometry,
@@ -10,9 +10,9 @@ import {
     SphereBufferGeometry,
     Texture,
     Vector3,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
-import { XRHandMeshModel } from './XRHandMeshModel';
+import { XRHandMeshModel } from './XRHandMeshModel.d.ts';
 
 export class OculusHandPointerModel extends Object3D {
     hand: Object3D;

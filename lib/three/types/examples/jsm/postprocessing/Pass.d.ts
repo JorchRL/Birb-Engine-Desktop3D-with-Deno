@@ -1,4 +1,4 @@
-import { Material, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three';
+import { Material, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
 export class Pass {
     constructor();

@@ -1,5 +1,5 @@
-import { Texture } from './Texture';
-import { PixelFormat } from '../constants';
+import { Texture } from './Texture.d.ts';
+import { PixelFormat } from '../constants.d.ts';
 
 export class FramebufferTexture extends Texture {
     readonly isFramebufferTexture: true;

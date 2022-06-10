@@ -1,6 +1,6 @@
-import { Vector2 } from './../../math/Vector2';
-import { Shape } from './Shape';
-import { Color } from '../../math/Color';
+import { Vector2 } from './../../math/Vector2.d.ts';
+import { Shape } from './Shape.d.ts';
+import { Color } from '../../math/Color.d.ts';
 
 export class ShapePath {
     constructor();

@@ -1,11 +1,11 @@
-import { WebGLExtensions } from './WebGLExtensions';
-import { WebGLAttributes } from './WebGLAttributes';
-import { WebGLProgram } from './WebGLProgram';
-import { WebGLCapabilities } from './WebGLCapabilities';
-import { Object3D } from './../../core/Object3D';
-import { BufferGeometry } from './../../core/BufferGeometry';
-import { BufferAttribute } from './../../core/BufferAttribute';
-import { Material } from './../../materials/Material';
+import { WebGLExtensions } from './WebGLExtensions.d.ts';
+import { WebGLAttributes } from './WebGLAttributes.d.ts';
+import { WebGLProgram } from './WebGLProgram.d.ts';
+import { WebGLCapabilities } from './WebGLCapabilities.d.ts';
+import { Object3D } from './../../core/Object3D.d.ts';
+import { BufferGeometry } from './../../core/BufferGeometry.d.ts';
+import { BufferAttribute } from './../../core/BufferAttribute.d.ts';
+import { Material } from './../../materials/Material.d.ts';
 
 export class WebGLBindingStates {
     constructor(

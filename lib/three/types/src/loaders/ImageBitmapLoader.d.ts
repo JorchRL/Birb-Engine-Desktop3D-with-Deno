@@ -1,5 +1,5 @@
-import { Loader } from './Loader';
-import { LoadingManager } from './LoadingManager';
+import { Loader } from './Loader.d.ts';
+import { LoadingManager } from './LoadingManager.d.ts';
 
 export class ImageBitmapLoader extends Loader {
     constructor(manager?: LoadingManager);

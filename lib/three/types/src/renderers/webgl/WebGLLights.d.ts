@@ -1,5 +1,5 @@
-import { WebGLExtensions } from './WebGLExtensions';
-import { WebGLCapabilities } from './WebGLCapabilities';
+import { WebGLExtensions } from './WebGLExtensions.d.ts';
+import { WebGLCapabilities } from './WebGLCapabilities.d.ts';
 
 export class WebGLLights {
     constructor(extensions: WebGLExtensions, capabilities: WebGLCapabilities);

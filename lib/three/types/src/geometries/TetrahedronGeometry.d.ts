@@ -1,4 +1,4 @@
-import { PolyhedronGeometry } from './PolyhedronGeometry';
+import { PolyhedronGeometry } from './PolyhedronGeometry.d.ts';
 
 export class TetrahedronGeometry extends PolyhedronGeometry {
     /**

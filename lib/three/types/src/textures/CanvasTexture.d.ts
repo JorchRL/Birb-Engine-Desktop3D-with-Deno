@@ -1,5 +1,5 @@
-import { Texture } from './Texture';
-import { Mapping, Wrapping, TextureFilter, PixelFormat, TextureDataType } from '../constants';
+import { Texture } from './Texture.d.ts';
+import { Mapping, Wrapping, TextureFilter, PixelFormat, TextureDataType } from '../constants.d.ts';
 
 export class CanvasTexture extends Texture {
     /**

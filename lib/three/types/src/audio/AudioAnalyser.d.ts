@@ -1,4 +1,4 @@
-import { Audio } from './Audio';
+import { Audio } from './Audio.d.ts';
 
 export class AudioAnalyser {
     /**

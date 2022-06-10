@@ -1,6 +1,6 @@
-import { ShaderMaterial, Texture, WebGLRenderTarget } from '../../../src/Three';
+import { ShaderMaterial, Texture, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class SMAAPass extends Pass {
     constructor(width: number, height: number);

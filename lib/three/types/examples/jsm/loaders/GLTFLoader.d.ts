@@ -16,10 +16,10 @@ import {
     TextureLoader,
     FileLoader,
     ImageBitmapLoader,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
-import { DRACOLoader } from './DRACOLoader';
-import { KTX2Loader } from './KTX2Loader';
+import { DRACOLoader } from './DRACOLoader.d.ts';
+import { KTX2Loader } from './KTX2Loader.d.ts';
 
 export interface GLTF {
     animations: AnimationClip[];

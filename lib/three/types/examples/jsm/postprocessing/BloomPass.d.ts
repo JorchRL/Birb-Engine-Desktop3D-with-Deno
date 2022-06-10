@@ -1,6 +1,6 @@
-import { WebGLRenderTarget, ShaderMaterial } from '../../../src/Three';
+import { WebGLRenderTarget, ShaderMaterial } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class BloomPass extends Pass {
     constructor(strength?: number, kernelSize?: number, sigma?: number, resolution?: number);

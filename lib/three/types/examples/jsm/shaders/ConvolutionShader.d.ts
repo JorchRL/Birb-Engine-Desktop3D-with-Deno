@@ -1,4 +1,4 @@
-import { Uniform } from '../../../src/core/Uniform';
+import { Uniform } from '../../../src/core/Uniform.d.ts';
 
 export const ConvolutionShader: {
     defines: {

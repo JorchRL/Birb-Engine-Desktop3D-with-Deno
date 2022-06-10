@@ -1,5 +1,5 @@
-import { Vector2 } from './../math/Vector2';
-import { BufferGeometry } from './../core/BufferGeometry';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { BufferGeometry } from './../core/BufferGeometry.d.ts';
 
 export class LatheGeometry extends BufferGeometry {
     /**

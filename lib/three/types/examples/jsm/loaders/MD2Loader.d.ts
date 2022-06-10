@@ -1,4 +1,4 @@
-import { BufferGeometry, Loader, LoadingManager } from '../../../src/Three';
+import { BufferGeometry, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class MD2Loader extends Loader {
     constructor(manager?: LoadingManager);

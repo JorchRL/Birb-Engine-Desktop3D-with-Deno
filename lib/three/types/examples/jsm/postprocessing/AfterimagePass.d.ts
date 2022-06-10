@@ -1,6 +1,6 @@
-import { WebGLRenderTarget, ShaderMaterial } from '../../../src/Three';
+import { WebGLRenderTarget, ShaderMaterial } from '../../../src/Three.d.ts';
 
-import { Pass } from './Pass';
+import { Pass } from './Pass.d.ts';
 
 export class AfterimagePass extends Pass {
     constructor(damp?: number);

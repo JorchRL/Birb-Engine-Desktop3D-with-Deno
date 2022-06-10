@@ -1,4 +1,4 @@
-import { AnimationClip, Vector3 } from '../../../src/Three';
+import { AnimationClip, Vector3 } from '../../../src/Three.d.ts';
 
 export interface AnimationClipCreator {
     CreateRotationAnimation(period: number, axis: string): AnimationClip;

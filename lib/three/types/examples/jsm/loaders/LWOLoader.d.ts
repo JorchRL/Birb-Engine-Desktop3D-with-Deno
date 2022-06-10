@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, Material, Object3D } from '../../../src/Three';
+import { Loader, LoadingManager, Material, Object3D } from '../../../src/Three.d.ts';
 
 export interface LWO {
     materials: Material[];

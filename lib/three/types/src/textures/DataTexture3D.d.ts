@@ -1,4 +1,4 @@
-import { Data3DTexture } from './Data3DTexture';
+import { Data3DTexture } from './Data3DTexture.d.ts';
 
 /**
  * @deprecated THREE.DataTexture3D has been renamed to Data3DTexture.

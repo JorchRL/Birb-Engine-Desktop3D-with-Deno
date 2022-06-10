@@ -1,6 +1,6 @@
-import { Line } from './Line';
-import { Material } from './../materials/Material';
-import { BufferGeometry } from '../core/BufferGeometry';
+import { Line } from './Line.d.ts';
+import { Material } from './../materials/Material.d.ts';
+import { BufferGeometry } from '../core/BufferGeometry.d.ts';
 
 export class LineLoop<
     TGeometry extends BufferGeometry = BufferGeometry,

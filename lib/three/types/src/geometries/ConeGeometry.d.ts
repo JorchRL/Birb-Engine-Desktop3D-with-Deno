@@ -1,4 +1,4 @@
-import { CylinderGeometry } from './CylinderGeometry';
+import { CylinderGeometry } from './CylinderGeometry.d.ts';
 
 export class ConeGeometry extends CylinderGeometry {
     /**

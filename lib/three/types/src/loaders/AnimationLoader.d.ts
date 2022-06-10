@@ -1,6 +1,6 @@
-import { LoadingManager } from './LoadingManager';
-import { Loader } from './Loader';
-import { AnimationClip } from './../animation/AnimationClip';
+import { LoadingManager } from './LoadingManager.d.ts';
+import { Loader } from './Loader.d.ts';
+import { AnimationClip } from './../animation/AnimationClip.d.ts';
 
 export class AnimationLoader extends Loader {
     constructor(manager?: LoadingManager);

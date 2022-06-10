@@ -1,5 +1,5 @@
-import { KeyframeTrack } from './../KeyframeTrack';
-import { InterpolationModes } from '../../constants';
+import { KeyframeTrack } from './../KeyframeTrack.d.ts';
+import { InterpolationModes } from '../../constants.d.ts';
 
 export class ColorKeyframeTrack extends KeyframeTrack {
     constructor(name: string, times: any[], values: any[], interpolation?: InterpolationModes);

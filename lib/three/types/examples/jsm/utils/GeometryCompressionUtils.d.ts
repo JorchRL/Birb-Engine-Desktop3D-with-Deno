@@ -1,4 +1,4 @@
-import { Mesh } from '../../../src/Three';
+import { Mesh } from '../../../src/Three.d.ts';
 
 export namespace GeometryCompressionUtils {
     function compressNormals(mesh: Mesh, encodeMethod: string): void;

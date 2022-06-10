@@ -1,5 +1,5 @@
-import { ColorRepresentation } from '../utils';
-import { Light } from './Light';
+import { ColorRepresentation } from '../utils.d.ts';
+import { Light } from './Light.d.ts';
 
 /**
  * This light's color gets applied to all the objects in the scene globally.

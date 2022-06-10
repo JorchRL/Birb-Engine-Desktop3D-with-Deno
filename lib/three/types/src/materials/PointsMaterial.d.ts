@@ -1,7 +1,7 @@
-import { Material, MaterialParameters } from './Material';
-import { Color } from './../math/Color';
-import { Texture } from './../textures/Texture';
-import { ColorRepresentation } from '../utils';
+import { Material, MaterialParameters } from './Material.d.ts';
+import { Color } from './../math/Color.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export interface PointsMaterialParameters extends MaterialParameters {
     color?: ColorRepresentation | undefined;

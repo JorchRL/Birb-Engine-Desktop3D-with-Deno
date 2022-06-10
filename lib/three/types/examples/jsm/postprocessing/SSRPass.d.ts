@@ -10,9 +10,9 @@ import {
     Mesh,
     Material,
     ColorRepresentation,
-} from '../../../src/Three';
-import { Pass, FullScreenQuad } from '../postprocessing/Pass';
-import { Reflector } from '../objects/ReflectorForSSRPass';
+} from '../../../src/Three.d.ts';
+import { Pass, FullScreenQuad } from '../postprocessing/Pass.d.ts';
+import { Reflector } from '../objects/ReflectorForSSRPass.d.ts';
 
 export interface SSRPassParams {
     renderer: WebGLRenderer;

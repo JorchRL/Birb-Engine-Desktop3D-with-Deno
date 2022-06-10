@@ -1,6 +1,6 @@
-import { Euler } from './Euler';
-import { Vector3 } from './Vector3';
-import { Matrix4 } from './Matrix4';
+import { Euler } from './Euler.d.ts';
+import { Vector3 } from './Vector3.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
 
 /**
  * Implementation of a quaternion. This is used for rotating things without incurring in the dreaded gimbal lock issue, amongst other advantages.

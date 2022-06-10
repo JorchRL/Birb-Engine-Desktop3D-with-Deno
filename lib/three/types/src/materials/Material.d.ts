@@ -1,7 +1,7 @@
-import { Plane } from './../math/Plane';
-import { EventDispatcher } from './../core/EventDispatcher';
-import { WebGLRenderer } from './../renderers/WebGLRenderer';
-import { Shader } from './../renderers/shaders/ShaderLib';
+import { Plane } from './../math/Plane.d.ts';
+import { EventDispatcher } from './../core/EventDispatcher.d.ts';
+import { WebGLRenderer } from './../renderers/WebGLRenderer.d.ts';
+import { Shader } from './../renderers/shaders/ShaderLib.d.ts';
 import {
     BlendingDstFactor,
     BlendingEquation,
@@ -12,7 +12,7 @@ import {
     StencilFunc,
     StencilOp,
     PixelFormat,
-} from '../constants';
+} from '../constants.d.ts';
 
 export interface MaterialParameters {
     alphaTest?: number | undefined;

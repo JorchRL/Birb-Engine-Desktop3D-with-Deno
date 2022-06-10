@@ -1,9 +1,9 @@
-import { Material } from './../materials/Material';
-import { Matrix4 } from './../math/Matrix4';
-import { Vector3 } from './../math/Vector3';
-import { Skeleton } from './Skeleton';
-import { Mesh } from './Mesh';
-import { BufferGeometry } from '../core/BufferGeometry';
+import { Material } from './../materials/Material.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Skeleton } from './Skeleton.d.ts';
+import { Mesh } from './Mesh.d.ts';
+import { BufferGeometry } from '../core/BufferGeometry.d.ts';
 
 export class SkinnedMesh<
     TGeometry extends BufferGeometry = BufferGeometry,

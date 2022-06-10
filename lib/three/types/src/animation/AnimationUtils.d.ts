@@ -1,4 +1,4 @@
-import { AnimationClip } from './AnimationClip';
+import { AnimationClip } from './AnimationClip.d.ts';
 
 export namespace AnimationUtils {
     function arraySlice(array: any, from: number, to: number): any;

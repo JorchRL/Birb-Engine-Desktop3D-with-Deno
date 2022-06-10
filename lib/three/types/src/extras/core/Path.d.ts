@@ -1,5 +1,5 @@
-import { Vector2 } from './../../math/Vector2';
-import { CurvePath } from './CurvePath';
+import { Vector2 } from './../../math/Vector2.d.ts';
+import { CurvePath } from './CurvePath.d.ts';
 
 /**
  * a 2d path representation, comprising of points, lines, and cubes, similar to the html5 2d canvas api. It extends CurvePath.

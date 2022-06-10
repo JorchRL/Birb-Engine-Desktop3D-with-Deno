@@ -1,4 +1,4 @@
-import { BufferGeometry, Material, Mesh, Color } from '../../../src/Three';
+import { BufferGeometry, Material, Mesh, Color } from '../../../src/Three.d.ts';
 
 export class MarchingCubes extends Mesh {
     constructor(

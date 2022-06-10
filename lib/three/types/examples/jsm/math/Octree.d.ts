@@ -1,6 +1,6 @@
-import { Triangle, Box3, Ray, Sphere, Object3D } from '../../../src/Three';
+import { Triangle, Box3, Ray, Sphere, Object3D } from '../../../src/Three.d.ts';
 
-import { Capsule } from './Capsule';
+import { Capsule } from './Capsule.d.ts';
 
 export class Octree {
     constructor(box?: Box3);

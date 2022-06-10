@@ -1,6 +1,6 @@
-import { CubeTexture, Loader, LoadingManager, TextureDataType } from '../../../src/Three';
+import { CubeTexture, Loader, LoadingManager, TextureDataType } from '../../../src/Three.d.ts';
 
-import { RGBELoader } from './RGBELoader';
+import { RGBELoader } from './RGBELoader.d.ts';
 
 export class HDRCubeTextureLoader extends Loader {
     constructor(manager?: LoadingManager);

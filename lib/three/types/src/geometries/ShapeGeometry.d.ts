@@ -1,5 +1,5 @@
-import { Shape } from './../extras/core/Shape';
-import { BufferGeometry } from './../core/BufferGeometry';
+import { Shape } from './../extras/core/Shape.d.ts';
+import { BufferGeometry } from './../core/BufferGeometry.d.ts';
 
 export class ShapeGeometry extends BufferGeometry {
     /**

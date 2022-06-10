@@ -1,4 +1,4 @@
-import { LoadingManager } from './LoadingManager';
+import { LoadingManager } from './LoadingManager.d.ts';
 
 /**
  * Base class for implementing loaders.

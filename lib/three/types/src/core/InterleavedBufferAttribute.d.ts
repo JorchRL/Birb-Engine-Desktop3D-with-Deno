@@ -1,7 +1,7 @@
-import { BufferAttribute } from './BufferAttribute';
-import { InterleavedBuffer } from './InterleavedBuffer';
-import { Matrix4 } from './../math/Matrix4';
-import { Matrix } from './../math/Matrix3';
+import { BufferAttribute } from './BufferAttribute.d.ts';
+import { InterleavedBuffer } from './InterleavedBuffer.d.ts';
+import { Matrix4 } from './../math/Matrix4.d.ts';
+import { Matrix } from './../math/Matrix3.d.ts';
 /**
  * see {@link https://github.com/mrdoob/three.js/blob/master/src/core/InterleavedBufferAttribute.js|src/core/InterleavedBufferAttribute.js}
  */

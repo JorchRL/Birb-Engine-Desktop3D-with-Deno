@@ -1,7 +1,7 @@
-import { Vector3 } from './Vector3';
-import { Euler } from './Euler';
-import { Quaternion } from './Quaternion';
-import { Matrix, Matrix3 } from './Matrix3';
+import { Vector3 } from './Vector3.d.ts';
+import { Euler } from './Euler.d.ts';
+import { Quaternion } from './Quaternion.d.ts';
+import { Matrix, Matrix3 } from './Matrix3.d.ts';
 
 export type Matrix4Tuple = [
     number,

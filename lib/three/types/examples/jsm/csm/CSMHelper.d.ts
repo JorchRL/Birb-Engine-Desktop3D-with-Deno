@@ -7,9 +7,9 @@ import {
     Mesh,
     MeshBasicMaterial,
     PlaneGeometry,
-} from '../../../src/Three';
+} from '../../../src/Three.d.ts';
 
-import { CSM } from './CSM';
+import { CSM } from './CSM.d.ts';
 
 export class CSMHelper<TCSM extends CSM = CSM> extends Group {
     constructor(csm: TCSM);

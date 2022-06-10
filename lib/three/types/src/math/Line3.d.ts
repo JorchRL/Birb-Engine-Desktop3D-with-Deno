@@ -1,5 +1,5 @@
-import { Vector3 } from './Vector3';
-import { Matrix4 } from './Matrix4';
+import { Vector3 } from './Vector3.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
 
 export class Line3 {
     constructor(start?: Vector3, end?: Vector3);

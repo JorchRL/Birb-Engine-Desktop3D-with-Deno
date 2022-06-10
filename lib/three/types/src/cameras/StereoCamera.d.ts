@@ -1,5 +1,5 @@
-import { PerspectiveCamera } from './PerspectiveCamera';
-import { Camera } from './Camera';
+import { PerspectiveCamera } from './PerspectiveCamera.d.ts';
+import { Camera } from './Camera.d.ts';
 
 export class StereoCamera extends Camera {
     constructor();

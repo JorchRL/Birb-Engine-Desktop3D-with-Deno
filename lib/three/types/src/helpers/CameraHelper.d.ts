@@ -1,5 +1,5 @@
-import { Camera } from './../cameras/Camera';
-import { LineSegments } from './../objects/LineSegments';
+import { Camera } from './../cameras/Camera.d.ts';
+import { LineSegments } from './../objects/LineSegments.d.ts';
 
 export class CameraHelper extends LineSegments {
     constructor(camera: Camera);

@@ -1,4 +1,4 @@
-import { Mesh, Points } from '../../../src/Three';
+import { Mesh, Points } from '../../../src/Three.d.ts';
 
 export interface DRACOExporterOptions {
     decodeSpeed?: number;

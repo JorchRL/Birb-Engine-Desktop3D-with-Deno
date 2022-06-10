@@ -1,7 +1,7 @@
-import { Vector2 } from './../math/Vector2';
-import { Matrix3 } from './../math/Matrix3';
-import { Source } from './Source';
-import { EventDispatcher } from './../core/EventDispatcher';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { Matrix3 } from './../math/Matrix3.d.ts';
+import { Source } from './Source.d.ts';
+import { EventDispatcher } from './../core/EventDispatcher.d.ts';
 import {
     Mapping,
     Wrapping,
@@ -10,7 +10,7 @@ import {
     PixelFormatGPU,
     TextureDataType,
     TextureEncoding,
-} from '../constants';
+} from '../constants.d.ts';
 
 export class Texture extends EventDispatcher {
     /**

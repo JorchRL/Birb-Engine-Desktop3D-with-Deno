@@ -1,10 +1,10 @@
-import { Plane } from './Plane';
-import { Matrix4 } from './Matrix4';
-import { Object3D } from './../core/Object3D';
-import { Sprite } from './../objects/Sprite';
-import { Sphere } from './Sphere';
-import { Box3 } from './Box3';
-import { Vector3 } from './Vector3';
+import { Plane } from './Plane.d.ts';
+import { Matrix4 } from './Matrix4.d.ts';
+import { Object3D } from './../core/Object3D.d.ts';
+import { Sprite } from './../objects/Sprite.d.ts';
+import { Sphere } from './Sphere.d.ts';
+import { Box3 } from './Box3.d.ts';
+import { Vector3 } from './Vector3.d.ts';
 
 /**
  * Frustums are used to determine what is inside the camera's field of view. They help speed up the rendering process.

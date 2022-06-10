@@ -1,5 +1,5 @@
-import { ColorRepresentation } from '../utils';
-import { Color } from './../math/Color';
+import { ColorRepresentation } from '../utils.d.ts';
+import { Color } from './../math/Color.d.ts';
 
 export interface FogBase {
     name: string;

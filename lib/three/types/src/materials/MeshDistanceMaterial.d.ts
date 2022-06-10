@@ -1,6 +1,6 @@
-import { MaterialParameters, Material } from './Material';
-import { Vector3 } from './../math/Vector3';
-import { Texture } from './../textures/Texture';
+import { MaterialParameters, Material } from './Material.d.ts';
+import { Vector3 } from './../math/Vector3.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
 
 export interface MeshDistanceMaterialParameters extends MaterialParameters {
     map?: Texture | null | undefined;

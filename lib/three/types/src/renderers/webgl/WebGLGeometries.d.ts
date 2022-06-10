@@ -1,8 +1,8 @@
-import { WebGLAttributes } from './WebGLAttributes';
-import { WebGLInfo } from './WebGLInfo';
-import { BufferAttribute } from '../../core/BufferAttribute';
-import { BufferGeometry } from '../../core/BufferGeometry';
-import { Object3D } from '../../core/Object3D';
+import { WebGLAttributes } from './WebGLAttributes.d.ts';
+import { WebGLInfo } from './WebGLInfo.d.ts';
+import { BufferAttribute } from '../../core/BufferAttribute.d.ts';
+import { BufferGeometry } from '../../core/BufferGeometry.d.ts';
+import { Object3D } from '../../core/Object3D.d.ts';
 
 export class WebGLGeometries {
     constructor(gl: WebGLRenderingContext, attributes: WebGLAttributes, info: WebGLInfo);

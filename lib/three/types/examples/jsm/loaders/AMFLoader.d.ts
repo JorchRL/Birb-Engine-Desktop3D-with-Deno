@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, Group } from '../../../src/Three';
+import { Loader, LoadingManager, Group } from '../../../src/Three.d.ts';
 
 export class AMFLoader extends Loader {
     constructor(manager?: LoadingManager);

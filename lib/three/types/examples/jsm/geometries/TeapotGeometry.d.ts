@@ -1,4 +1,4 @@
-import { BufferGeometry } from '../../../src/Three';
+import { BufferGeometry } from '../../../src/Three.d.ts';
 
 export class TeapotGeometry extends BufferGeometry {
     constructor(

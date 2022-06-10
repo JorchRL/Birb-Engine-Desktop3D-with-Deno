@@ -1,5 +1,5 @@
-import { WebGLProgram } from './WebGLProgram';
-import { WebGLTextures } from './WebGLTextures';
+import { WebGLProgram } from './WebGLProgram.d.ts';
+import { WebGLTextures } from './WebGLTextures.d.ts';
 
 export class WebGLUniforms {
     constructor(gl: WebGLRenderingContext, program: WebGLProgram);

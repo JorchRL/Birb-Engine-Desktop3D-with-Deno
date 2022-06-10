@@ -1,9 +1,9 @@
-import { Color } from './../math/Color';
-import { Texture } from './../textures/Texture';
-import { Vector2 } from './../math/Vector2';
-import { MaterialParameters, Material } from './Material';
-import { NormalMapTypes } from '../constants';
-import { ColorRepresentation } from '../utils';
+import { Color } from './../math/Color.d.ts';
+import { Texture } from './../textures/Texture.d.ts';
+import { Vector2 } from './../math/Vector2.d.ts';
+import { MaterialParameters, Material } from './Material.d.ts';
+import { NormalMapTypes } from '../constants.d.ts';
+import { ColorRepresentation } from '../utils.d.ts';
 
 export interface MeshStandardMaterialParameters extends MaterialParameters {
     color?: ColorRepresentation | undefined;

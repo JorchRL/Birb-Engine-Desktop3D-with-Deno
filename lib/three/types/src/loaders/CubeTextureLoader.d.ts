@@ -1,6 +1,6 @@
-import { Loader } from './Loader';
-import { LoadingManager } from './LoadingManager';
-import { CubeTexture } from './../textures/CubeTexture';
+import { Loader } from './Loader.d.ts';
+import { LoadingManager } from './LoadingManager.d.ts';
+import { CubeTexture } from './../textures/CubeTexture.d.ts';
 
 export class CubeTextureLoader extends Loader {
     constructor(manager?: LoadingManager);

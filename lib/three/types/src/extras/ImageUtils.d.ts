@@ -1,5 +1,5 @@
-import { Mapping } from '../constants';
-import { Texture } from '../textures/Texture';
+import { Mapping } from '../constants.d.ts';
+import { Texture } from '../textures/Texture.d.ts';
 
 export namespace ImageUtils {
     function getDataURL(image: any): string;

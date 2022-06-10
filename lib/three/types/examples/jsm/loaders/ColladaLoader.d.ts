@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, Scene } from '../../../src/Three';
+import { Loader, LoadingManager, Scene } from '../../../src/Three.d.ts';
 
 export interface Collada {
     kinematics: object;

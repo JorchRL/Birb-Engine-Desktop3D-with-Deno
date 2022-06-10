@@ -1,6 +1,6 @@
-import { Matrix3, Mesh } from '../../../src/Three';
+import { Matrix3, Mesh } from '../../../src/Three.d.ts';
 
-import { Volume } from './Volume';
+import { Volume } from './Volume.d.ts';
 
 export class VolumeSlice {
     constructor(volume: Volume, index?: number, axis?: string);

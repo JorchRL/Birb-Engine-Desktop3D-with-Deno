@@ -1,4 +1,4 @@
-import { Loader, LoadingManager, Vector3, DataTexture, Data3DTexture } from '../../../src/Three';
+import { Loader, LoadingManager, Vector3, DataTexture, Data3DTexture } from '../../../src/Three.d.ts';
 
 export interface LUTCubeResult {
     title: string;
