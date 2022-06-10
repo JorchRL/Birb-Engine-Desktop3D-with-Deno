@@ -5,20 +5,15 @@
 
 // The only reason you may want to run this is if you import new type definitions from outside.
 
-import {join, dirname} from "../../deps.ts"
 
-const examplesPath =  join(dirname(import.meta.url), "../three/types/examples/jsm/");
-
-// console.log(examplesPath)
-
-const srcPath = join(dirname(import.meta.url),"../three/types/src/")
-// console.log(srcPath)
+const examplesPath = "./lib/three/types/examples/jsm"
+const srcPath = "./lib/three/types/src"
 
 // Crawl folder and find files matching a RegExp. Call a function for matches.
 function loopDirAndMatch(path:string, pattern:RegExp, callback:Function) {
     for (const dirEntry of Deno.readDirSync(path)) {
         if (dirEntry.isDirectory) {
-            loopDirAndMatch(`${path}${dirEntry.name}`, pattern, callback)
+            loopDirAndMatch(`${path}/${dirEntry.name}`, pattern, callback)
         } else {
             const match = dirEntry.name.match(pattern);
             if (match) {
@@ -30,7 +25,7 @@ function loopDirAndMatch(path:string, pattern:RegExp, callback:Function) {
 
 // We just want to rewrite all urls into Deno-friendly urls!
 function updateTypeDefs (fileName: string, path: string) {
-    let data = Deno.readTextFileSync(`${path}${fileName}`)
+    let data = Deno.readTextFileSync(`${path}/${fileName}`)
 
     data = data.replaceAll(/import .+?;/gms, (m) => {
         if(!m.includes(".d.ts")) {
@@ -47,7 +42,7 @@ function updateTypeDefs (fileName: string, path: string) {
     })
 
     // Overwrite the same file! Be careful.
-    Deno.writeTextFileSync(`${path}${fileName}`, data)
+    Deno.writeTextFileSync(`${path}/${fileName}`, data)
 }
 
 
