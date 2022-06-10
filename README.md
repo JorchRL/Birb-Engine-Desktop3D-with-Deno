@@ -40,6 +40,8 @@ This is the version of Three.js I'm currently using
 
 ## Type definitions for Three.js
 
+If you are reading this it is already done! :D
+
 The "./lib/utils/denoify.ts" script will rewrite the import/export urls into
 Deno-friendly urls. You don't need to run it unless you want to import another
 version of Three.js.
