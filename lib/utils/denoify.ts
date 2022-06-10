@@ -5,9 +5,14 @@
 
 // The only reason you may want to run this is if you import new type definitions from outside.
 
-const examplesPath = "../three/types/examples/jsm"
-const srcPath = "../three/types/src"
+import {join, dirname} from "../../deps.ts"
 
+const examplesPath =  join(dirname(import.meta.url), "../three/types/examples/jsm/");
+
+// console.log(examplesPath)
+
+const srcPath = join(dirname(import.meta.url),"../three/types/src/")
+// console.log(srcPath)
 
 // Crawl folder and find files matching a RegExp. Call a function for matches.
 function loopDirAndMatch(path:string, pattern:RegExp, callback:Function) {
