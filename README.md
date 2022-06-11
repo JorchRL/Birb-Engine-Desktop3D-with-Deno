@@ -20,9 +20,11 @@ point, hook Deno callbacks into the running app (ie. with `Webview.bind()`).
 
 ## How to run
 
-Just run `deno run -A --unstable ./main.ts`
+Just run `deno run -A --unstable --config ./deno.json ./main.ts`
 
-Make sure to check the dependencies first.
+Make sure to check the dependencies first. Also, please note that you must run
+it with the config `deno.json` file to set the correct compiler options,
+otherwise there are type conflicts with `deno.window` :D
 
 ## Three.js version
 
