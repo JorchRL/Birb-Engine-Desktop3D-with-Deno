@@ -41,6 +41,9 @@ function updateTypeDefs (fileName: string, path: string) {
         return m
     })
 
+    // Let TypeScript know there are definitions for window, 
+    data = data.replace(/^/, `/// <reference lib="DOM" /> \n`);
+
     // Overwrite the same file! Be careful.
     Deno.writeTextFileSync(`${path}/${fileName}`, data)
 }
