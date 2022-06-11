@@ -11,12 +11,12 @@ yet.
 You should output a "./dist/app.js" bundle with your complete Three.js app. You
 probably want to keep all of your app code inside "./src".
 
-TODO: I still have to find a way to write and bundle Three.js with Deno. The
-bundling process should output "./dist/app.js". Then "./main.ts" would run the
-page in a webview.
+The entrypoint is "./src/index.ts". Keep all of your dependencies referenced
+inside the `src` folder. There is an `appDeps.ts` file for that. Otherwise
+esbuild will attempt to bundle all dependencies into the output file.
 
-This is not as straightforward as it may seem because we may want to, at some
-point, hook Deno callbacks into the running app (ie. with `Webview.bind()`).
+Once you write your app you can bundle it with the `./bundle.js`script, which
+uses esbuild.
 
 ## How to run
 
@@ -48,6 +48,8 @@ The "./lib/utils/denoify.ts" script will rewrite the import/export urls into
 Deno-friendly urls. You don't need to run it unless you want to import another
 version of Three.js.
 
+TODO: there are still some minor issues with this (see issues page)
+
 ## Dependency locking
 
 Use `deno cache --reload --lock=lock.json --lock-write ./deps.ts` to
@@ -71,4 +73,6 @@ to build and run everything.
 
 ## License
 
-MIT. Do whatever you want with it!
+MIT.
+
+Do whatever you want with it!
