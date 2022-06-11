@@ -1,14 +1,13 @@
-
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "lib": [
-            "dom",
-            "dom.iterable",
-            "dom.asynciterable",
-            "es2016",
-            "deno.ns",
-            "deno.unstable"
-        ]
-    }
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "es2016",
+      "deno.ns",
+      "deno.unstable"
+    ]
+  }
 }
