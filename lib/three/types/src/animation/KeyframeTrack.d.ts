@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { DiscreteInterpolant } from './../math/interpolants/DiscreteInterpolant.d.ts';
 import { LinearInterpolant } from './../math/interpolants/LinearInterpolant.d.ts';
 import { CubicInterpolant } from './../math/interpolants/CubicInterpolant.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { DataTextureLoader, TextureDataType, LoadingManager, PixelFormat } from '../../../src/Three.d.ts';
 
 export interface LogLuv {

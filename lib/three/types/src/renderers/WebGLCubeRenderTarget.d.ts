@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLRenderTargetOptions, WebGLRenderTarget } from './WebGLRenderTarget.d.ts';
 import { WebGLRenderer } from './WebGLRenderer.d.ts';
 import { Texture } from './../textures/Texture.d.ts';

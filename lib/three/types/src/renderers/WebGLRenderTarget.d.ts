@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector4 } from './../math/Vector4.d.ts';
 import { Texture } from './../textures/Texture.d.ts';
 import { DepthTexture } from './../textures/DepthTexture.d.ts';

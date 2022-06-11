@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, Group, InstancedMesh, Material, Object3D, Scene, Mesh } from '../../../src/Three.d.ts';
 
 export function createMeshesFromInstancedMesh(instancedMesh: InstancedMesh): Group;

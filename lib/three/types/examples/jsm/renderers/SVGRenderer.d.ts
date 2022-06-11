@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, Color, Scene, Camera } from '../../../src/Three.d.ts';
 
 export class SVGObject extends Object3D {

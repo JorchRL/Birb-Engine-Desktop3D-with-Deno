@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export * from './ShadowMaterial.d.ts';
 export * from './SpriteMaterial.d.ts';
 export * from './RawShaderMaterial.d.ts';

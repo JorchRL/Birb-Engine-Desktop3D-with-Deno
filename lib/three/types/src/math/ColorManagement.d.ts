@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { LinearSRGBColorSpace, SRGBColorSpace } from '../constants.d.ts';
 import { Color } from './Color.d.ts';
 

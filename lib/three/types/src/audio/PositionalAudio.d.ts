@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AudioListener } from './AudioListener.d.ts';
 import { Audio } from './Audio.d.ts';
 

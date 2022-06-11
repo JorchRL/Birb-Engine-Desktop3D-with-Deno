@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, Material, Mesh } from '../../../src/Three.d.ts';
 
 export class MorphBlendMesh extends Mesh {

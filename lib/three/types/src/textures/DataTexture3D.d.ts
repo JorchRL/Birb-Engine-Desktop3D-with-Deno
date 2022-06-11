@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Data3DTexture } from './Data3DTexture.d.ts';
 
 /**

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export * from './ArcCurve.d.ts';
 export * from './CatmullRomCurve3.d.ts';
 export * from './CubicBezierCurve.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export namespace Cache {
     /**
      * @default false

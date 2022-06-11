@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Mesh, Vector3 } from '../../../src/Three.d.ts';
 
 export class AmmoPhysics {

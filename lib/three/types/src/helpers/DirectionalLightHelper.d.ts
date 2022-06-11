@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { DirectionalLight } from './../lights/DirectionalLight.d.ts';
 import { Line } from './../objects/Line.d.ts';
 import { Matrix4 } from './../math/Matrix4.d.ts';

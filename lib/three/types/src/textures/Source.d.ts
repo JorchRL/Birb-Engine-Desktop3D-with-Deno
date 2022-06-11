@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /**
  * Represents the data source of a texture.
  */

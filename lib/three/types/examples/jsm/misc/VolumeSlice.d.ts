@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Matrix3, Mesh } from '../../../src/Three.d.ts';
 
 import { Volume } from './Volume.d.ts';

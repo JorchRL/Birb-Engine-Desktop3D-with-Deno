@@ -1,1 +1,2 @@
+/// <reference lib="DOM" /> 
 export {};

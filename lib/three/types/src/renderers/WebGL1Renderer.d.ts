@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLRenderer, WebGLRendererParameters } from './WebGLRenderer.d.ts';
 
 export class WebGL1Renderer extends WebGLRenderer {

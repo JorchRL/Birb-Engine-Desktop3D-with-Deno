@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, Scene, Camera } from '../../../src/Three.d.ts';
 
 export class CSS3DObject extends Object3D {

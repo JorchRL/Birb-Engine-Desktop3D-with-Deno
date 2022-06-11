@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export class PropertyMixer {
     constructor(binding: any, typeName: string, valueSize: number);
 

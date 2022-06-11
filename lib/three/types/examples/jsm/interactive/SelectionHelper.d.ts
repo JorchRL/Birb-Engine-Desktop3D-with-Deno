@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLRenderer, Vector2 } from '../../../src/Three.d.ts';
 
 import { SelectionBox } from './SelectionBox.d.ts';

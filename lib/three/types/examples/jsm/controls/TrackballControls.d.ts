@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, EventDispatcher, MOUSE, Vector3 } from '../../../src/Three.d.ts';
 
 export class TrackballControls extends EventDispatcher {

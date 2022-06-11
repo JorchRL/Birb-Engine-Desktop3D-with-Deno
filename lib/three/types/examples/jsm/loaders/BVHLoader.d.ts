@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationClip, Skeleton, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export interface BVH {

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader, LoadingManager, ShapePath, BufferGeometry, Vector3, Shape } from '../../../src/Three.d.ts';
 
 export interface SVGResultPaths extends ShapePath {

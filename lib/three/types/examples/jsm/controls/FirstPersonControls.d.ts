@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, Vector3 } from '../../../src/Three.d.ts';
 
 export class FirstPersonControls {

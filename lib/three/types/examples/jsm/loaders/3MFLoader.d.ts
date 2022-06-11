@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader, LoadingManager, Group } from '../../../src/Three.d.ts';
 
 export class ThreeMFLoader extends Loader {

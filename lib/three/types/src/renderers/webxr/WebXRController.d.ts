@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Group } from '../../objects/Group.d.ts';
 import { Vector3 } from '../../math/Vector3.d.ts';
 

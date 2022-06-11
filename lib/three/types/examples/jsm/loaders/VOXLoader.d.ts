@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Data3DTexture, Mesh, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export interface Chunk {

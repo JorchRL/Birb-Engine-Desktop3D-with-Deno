@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, Color, Mesh, Vector3 } from '../../../src/Three.d.ts';
 
 export class MeshSurfaceSampler {

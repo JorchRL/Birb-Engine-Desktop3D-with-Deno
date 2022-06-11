@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D } from './../core/Object3D.d.ts';
 import { Raycaster } from './../core/Raycaster.d.ts';
 import { Camera } from './../cameras/Camera.d.ts';

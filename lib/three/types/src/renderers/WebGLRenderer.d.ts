@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Scene } from './../scenes/Scene.d.ts';
 import { Camera } from './../cameras/Camera.d.ts';
 import { WebGLExtensions } from './webgl/WebGLExtensions.d.ts';

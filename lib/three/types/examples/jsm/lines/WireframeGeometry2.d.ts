@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry } from '../../../src/Three.d.ts';
 
 import { LineSegmentsGeometry } from './LineSegmentsGeometry.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Bone } from './Bone.d.ts';
 import { Matrix4 } from './../math/Matrix4.d.ts';
 import { DataTexture } from './../textures/DataTexture.d.ts';

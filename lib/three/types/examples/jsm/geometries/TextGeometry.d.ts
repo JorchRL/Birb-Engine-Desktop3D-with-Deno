@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { ExtrudeGeometry } from '../../../src/Three.d.ts';
 
 import { Font } from '../loaders/FontLoader.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLCubeRenderTarget } from './../renderers/WebGLCubeRenderTarget.d.ts';
 import { Scene } from './../scenes/Scene.d.ts';
 import { WebGLRenderer } from './../renderers/WebGLRenderer.d.ts';

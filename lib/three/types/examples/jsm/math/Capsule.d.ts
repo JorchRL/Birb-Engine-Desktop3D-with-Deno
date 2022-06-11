@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector3, Line3, Box3 } from '../../../src/Three.d.ts';
 
 export class Capsule {

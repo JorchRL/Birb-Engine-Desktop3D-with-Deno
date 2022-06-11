@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import {
     Box3Helper,
     BufferGeometry,

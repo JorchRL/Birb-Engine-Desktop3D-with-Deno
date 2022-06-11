@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, AnimationClip, Texture, Material, Mesh } from '../../../src/Three.d.ts';
 
 export interface GLTFExporterOptions {

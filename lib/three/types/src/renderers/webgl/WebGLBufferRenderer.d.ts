@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 // Renderers / WebGL /////////////////////////////////////////////////////////////////////
 import { WebGLExtensions } from './WebGLExtensions.d.ts';
 import { WebGLInfo } from './WebGLInfo.d.ts';

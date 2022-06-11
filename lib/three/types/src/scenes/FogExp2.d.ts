@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Color } from './../math/Color.d.ts';
 import { FogBase } from './Fog.d.ts';
 /**

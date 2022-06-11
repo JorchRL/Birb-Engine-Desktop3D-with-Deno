@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export * from './BoxGeometry.d.ts';
 export * from './CapsuleGeometry.d.ts';
 export * from './CircleGeometry.d.ts';

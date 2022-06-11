@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export interface Vec2 {
     x: number;
     y: number;

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Curve } from './../extras/core/Curve.d.ts';
 import { Vector3 } from './../math/Vector3.d.ts';
 import { BufferGeometry } from './../core/BufferGeometry.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, Mesh, Texture } from '../../../src/Three.d.ts';
 
 export class MD2CharacterComplex {

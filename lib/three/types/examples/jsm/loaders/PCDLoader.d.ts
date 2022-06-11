@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Points, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class PCDLoader extends Loader {

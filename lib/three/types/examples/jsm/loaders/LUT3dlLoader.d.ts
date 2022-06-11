@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader, LoadingManager, DataTexture, Data3DTexture } from '../../../src/Three.d.ts';
 
 export interface LUT3dlResult {

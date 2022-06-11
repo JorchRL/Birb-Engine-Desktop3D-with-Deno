@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { LoadingManager, CompressedTextureLoader, CompressedTexture, WebGLRenderer } from '../../../src/Three.d.ts';
 
 export class KTX2Loader extends CompressedTextureLoader {

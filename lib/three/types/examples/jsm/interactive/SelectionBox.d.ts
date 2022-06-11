@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, Frustum, Mesh, Object3D, Scene, Vector3 } from '../../../src/Three.d.ts';
 
 export class SelectionBox {

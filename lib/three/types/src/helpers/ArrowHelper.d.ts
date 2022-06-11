@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector3 } from './../math/Vector3.d.ts';
 import { Line } from './../objects/Line.d.ts';
 import { Mesh } from './../objects/Mesh.d.ts';

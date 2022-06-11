@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { PolyhedronGeometry } from './PolyhedronGeometry.d.ts';
 
 export class OctahedronGeometry extends PolyhedronGeometry {

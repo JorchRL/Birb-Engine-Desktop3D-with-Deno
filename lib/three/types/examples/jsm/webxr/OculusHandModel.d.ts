@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Mesh, Object3D, Texture, Vector3 } from '../../../src/Three.d.ts';
 import { XRHandMeshModel } from './XRHandMeshModel.d.ts';
 

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, AnimationClip, FileLoader, Loader, LoadingManager, SkinnedMesh } from '../../../src/Three.d.ts';
 
 export interface MMDLoaderAnimationObject {

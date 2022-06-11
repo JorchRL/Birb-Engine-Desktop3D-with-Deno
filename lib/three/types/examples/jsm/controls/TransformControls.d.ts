@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, Camera, MOUSE, Raycaster, Mesh, Vector3, Quaternion } from '../../../src/Three.d.ts';
 
 export class TransformControls extends Object3D {

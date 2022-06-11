@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D } from '../../../src/Three.d.ts';
 
 export interface PLYExporterOptions {

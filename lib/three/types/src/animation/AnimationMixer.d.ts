@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationClip } from './AnimationClip.d.ts';
 import { AnimationAction } from './AnimationAction.d.ts';
 import { AnimationBlendMode } from '../constants.d.ts';

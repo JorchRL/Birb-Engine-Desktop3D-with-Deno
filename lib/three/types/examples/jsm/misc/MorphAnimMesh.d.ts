@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationAction, AnimationMixer, BufferGeometry, Material, Mesh } from '../../../src/Three.d.ts';
 
 export class MorphAnimMesh extends Mesh {

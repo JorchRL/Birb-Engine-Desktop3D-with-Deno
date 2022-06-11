@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { CubeTexture, LoadingManager, DataTextureLoader, PixelFormat, TextureDataType } from '../../../src/Three.d.ts';
 
 export interface RGBM {

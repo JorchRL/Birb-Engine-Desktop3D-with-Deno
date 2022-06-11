@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { CubeTexture, LightProbe, WebGLRenderer, WebGLCubeRenderTarget } from '../../../src/Three.d.ts';
 
 export namespace LightProbeGenerator {

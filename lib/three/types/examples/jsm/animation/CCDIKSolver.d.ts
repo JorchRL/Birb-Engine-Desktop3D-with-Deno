@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, SkinnedMesh } from '../../../src/Three.d.ts';
 
 // tslint:disable-next-line:interface-name

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Line } from '../../../src/Three.d.ts';
 
 import { LineSegmentsGeometry } from './LineSegmentsGeometry.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, MOUSE, TOUCH, Vector3 } from '../../../src/Three.d.ts';
 
 export class OrbitControls {

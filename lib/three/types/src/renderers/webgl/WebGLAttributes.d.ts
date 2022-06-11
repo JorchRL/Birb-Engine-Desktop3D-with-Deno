@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLCapabilities } from './WebGLCapabilities.d.ts';
 import { BufferAttribute } from '../../core/BufferAttribute.d.ts';
 import { InterleavedBufferAttribute } from '../../core/InterleavedBufferAttribute.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, Mesh, Texture, AnimationMixer } from '../../../src/Three.d.ts';
 
 export interface MD2PartsConfig {

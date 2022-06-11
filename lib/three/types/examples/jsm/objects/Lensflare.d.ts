@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Mesh, Texture, Color } from '../../../src/Three.d.ts';
 
 export class LensflareElement {

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { IUniform } from '../renderers/shaders/UniformsLib.d.ts';
 import { MaterialParameters, Material } from './Material.d.ts';
 import { GLSLVersion } from '../constants.d.ts';

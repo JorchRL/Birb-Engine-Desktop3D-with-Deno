@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Triangle, Box3, Ray, Sphere, Object3D } from '../../../src/Three.d.ts';
 
 import { Capsule } from './Capsule.d.ts';

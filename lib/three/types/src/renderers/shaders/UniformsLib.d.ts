@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 // tslint:disable-next-line:interface-name
 export interface IUniform<TValue = any> {
     value: TValue;

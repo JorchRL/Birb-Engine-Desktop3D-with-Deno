@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { LineBasicMaterial, LineBasicMaterialParameters } from './LineBasicMaterial.d.ts';
 
 export interface LineDashedMaterialParameters extends LineBasicMaterialParameters {

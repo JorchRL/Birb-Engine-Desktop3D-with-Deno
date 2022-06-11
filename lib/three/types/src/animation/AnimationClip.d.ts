@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { KeyframeTrack } from './KeyframeTrack.d.ts';
 import { Vector3 } from './../math/Vector3.d.ts';
 import { Bone } from './../objects/Bone.d.ts';

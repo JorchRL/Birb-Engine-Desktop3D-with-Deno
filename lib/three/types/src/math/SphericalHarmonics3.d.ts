@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector3 } from './Vector3.d.ts';
 
 export class SphericalHarmonics3 {

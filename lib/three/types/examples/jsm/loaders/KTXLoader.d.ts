@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { LoadingManager, CompressedTextureLoader, PixelFormat, CompressedPixelFormat } from '../../../src/Three.d.ts';
 
 export interface KTX {

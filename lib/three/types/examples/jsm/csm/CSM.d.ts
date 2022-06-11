@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, Vector3, DirectionalLight, Material, Vector2, Object3D } from '../../../src/Three.d.ts';
 
 export enum CMSMode {

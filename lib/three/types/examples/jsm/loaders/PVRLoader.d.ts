@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { LoadingManager, CompressedTextureLoader, CompressedPixelFormat } from '../../../src/Three.d.ts';
 
 export interface PVR {

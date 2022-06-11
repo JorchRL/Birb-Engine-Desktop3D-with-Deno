@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Mesh } from '../../../src/Three.d.ts';
 
 export namespace GeometryCompressionUtils {

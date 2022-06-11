@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { OrthographicCamera } from './../cameras/OrthographicCamera.d.ts';
 import { LightShadow } from './LightShadow.d.ts';
 

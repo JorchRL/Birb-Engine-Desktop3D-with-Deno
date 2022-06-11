@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera } from './../../cameras/Camera.d.ts';
 import { Material } from './../../materials/Material.d.ts';
 import { WebGLProperties } from './WebGLProperties.d.ts';

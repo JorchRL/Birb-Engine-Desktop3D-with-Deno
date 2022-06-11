@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export class WebGLProperties {
     constructor();
 

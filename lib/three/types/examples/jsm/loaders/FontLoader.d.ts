@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Shape, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class FontLoader extends Loader {

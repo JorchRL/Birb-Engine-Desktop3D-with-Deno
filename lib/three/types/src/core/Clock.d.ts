@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /**
  * Object for keeping track of time.
  *

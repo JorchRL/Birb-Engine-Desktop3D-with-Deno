@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Texture } from './Texture.d.ts';
 import { Mapping, Wrapping, TextureFilter, PixelFormat, TextureDataType } from '../constants.d.ts';
 

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Material } from './../materials/Material.d.ts';
 import { Matrix4 } from './../math/Matrix4.d.ts';
 import { Vector3 } from './../math/Vector3.d.ts';

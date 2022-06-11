@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Group, Texture } from '../../../src/Three.d.ts';
 
 import { XRHandModel, XRHandModelHandedness } from './XRHandModelFactory.d.ts';

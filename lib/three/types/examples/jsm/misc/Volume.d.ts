@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Matrix3 } from '../../../src/Three.d.ts';
 
 import { VolumeSlice } from './VolumeSlice.js.d.ts';

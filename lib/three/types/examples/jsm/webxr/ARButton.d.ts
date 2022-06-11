@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLRenderer } from '../../../src/Three.d.ts';
 
 export interface ARButtonSessionInit extends XRSessionInit {

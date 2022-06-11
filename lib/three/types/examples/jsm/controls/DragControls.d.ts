@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, EventDispatcher, Object3D, Raycaster } from '../../../src/Three.d.ts';
 
 export class DragControls extends EventDispatcher {

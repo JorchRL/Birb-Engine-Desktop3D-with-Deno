@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Color, Group, Loader, LoadingManager, Material, Mesh, Texture } from '../../../src/Three.d.ts';
 
 export class TDSLoader extends Loader {

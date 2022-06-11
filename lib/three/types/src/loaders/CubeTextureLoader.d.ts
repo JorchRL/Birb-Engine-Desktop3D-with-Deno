@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader } from './Loader.d.ts';
 import { LoadingManager } from './LoadingManager.d.ts';
 import { CubeTexture } from './../textures/CubeTexture.d.ts';

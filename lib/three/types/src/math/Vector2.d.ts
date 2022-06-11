@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Matrix3 } from './Matrix3.d.ts';
 import { BufferAttribute } from './../core/BufferAttribute.d.ts';
 

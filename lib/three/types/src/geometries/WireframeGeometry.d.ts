@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry } from './../core/BufferGeometry.d.ts';
 
 export class WireframeGeometry<TBufferGeometry extends BufferGeometry = BufferGeometry> extends BufferGeometry {

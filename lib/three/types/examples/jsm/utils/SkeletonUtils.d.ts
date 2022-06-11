@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationClip, Bone, Matrix4, Object3D, Skeleton, SkeletonHelper } from '../../../src/Three.d.ts';
 
 export namespace SkeletonUtils {

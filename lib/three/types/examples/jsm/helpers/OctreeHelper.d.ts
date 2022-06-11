@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { ColorRepresentation, LineSegments } from '../../../src/Three.d.ts';
 import { Octree } from '../math/Octree.d.ts';
 

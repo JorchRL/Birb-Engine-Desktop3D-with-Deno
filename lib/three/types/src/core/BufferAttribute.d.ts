@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Usage } from '../constants.d.ts';
 import { Matrix3 } from './../math/Matrix3.d.ts';
 import { Matrix4 } from './../math/Matrix4.d.ts';

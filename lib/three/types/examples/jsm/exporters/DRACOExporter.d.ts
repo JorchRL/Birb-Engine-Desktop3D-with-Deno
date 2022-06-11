@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Mesh, Points } from '../../../src/Three.d.ts';
 
 export interface DRACOExporterOptions {

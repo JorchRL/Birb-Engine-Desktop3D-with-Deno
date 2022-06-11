@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera } from './../cameras/Camera.d.ts';
 import { LineSegments } from './../objects/LineSegments.d.ts';
 

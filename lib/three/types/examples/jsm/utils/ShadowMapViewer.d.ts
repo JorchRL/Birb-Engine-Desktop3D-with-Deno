@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Light, Renderer } from '../../../src/Three.d.ts';
 
 export interface Size {

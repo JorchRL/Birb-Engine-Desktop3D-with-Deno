@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Texture } from './Texture.d.ts';
 import { PixelFormat } from '../constants.d.ts';
 

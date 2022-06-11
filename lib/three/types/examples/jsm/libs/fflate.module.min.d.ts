@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /**
  * Options for compressing data into a DEFLATE format
  */

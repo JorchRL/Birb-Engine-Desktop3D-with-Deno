@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, Scene, Vector2, Vector4, WebGLRenderer, WebGLRenderTarget, WebGLShadowMap } from '../../../src/Three.d.ts';
 
 export interface OutlineEffectParameters {

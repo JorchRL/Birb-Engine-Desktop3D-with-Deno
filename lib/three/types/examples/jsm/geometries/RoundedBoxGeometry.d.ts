@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BoxGeometry } from '../../../src/Three.d.ts';
 
 export class RoundedBoxGeometry extends BoxGeometry {

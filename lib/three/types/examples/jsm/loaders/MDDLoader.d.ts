@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationClip, BufferAttribute, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export interface MDD {

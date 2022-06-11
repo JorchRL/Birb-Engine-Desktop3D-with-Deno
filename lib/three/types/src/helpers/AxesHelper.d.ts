@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Color } from '../math/Color.d.ts';
 import { LineSegments } from './../objects/LineSegments.d.ts';
 

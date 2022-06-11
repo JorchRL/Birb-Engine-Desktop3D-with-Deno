@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /**
  * @author sciecode / https://github.com/sciecode
  *

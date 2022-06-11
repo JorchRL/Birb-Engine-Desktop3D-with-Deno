@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Scene, Camera, ColorRepresentation, ShaderMaterial, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
 import { Pass } from './Pass.d.ts';

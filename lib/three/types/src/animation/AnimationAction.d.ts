@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationMixer } from './AnimationMixer.d.ts';
 import { AnimationClip } from './AnimationClip.d.ts';
 import { AnimationActionLoopStyles, AnimationBlendMode } from '../constants.d.ts';

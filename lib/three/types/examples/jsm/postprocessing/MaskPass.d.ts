@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Scene, Camera } from '../../../src/Three.d.ts';
 
 import { Pass } from './Pass.d.ts';

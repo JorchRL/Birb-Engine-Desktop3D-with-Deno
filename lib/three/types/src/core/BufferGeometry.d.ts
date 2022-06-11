@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferAttribute } from './BufferAttribute.d.ts';
 import { Box3 } from './../math/Box3.d.ts';
 import { Sphere } from './../math/Sphere.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, ColorRepresentation, Mesh, ShaderMaterial, Side, Texture, Vector3 } from '../../../src/Three.d.ts';
 
 export interface WaterOptions {

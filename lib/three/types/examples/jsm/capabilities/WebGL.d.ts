@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 declare namespace WEBGL {
     function isWebGLAvailable(): boolean;
     function isWebGL2Available(): boolean;

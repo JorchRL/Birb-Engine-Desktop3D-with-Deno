@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { ShaderMaterial, DataTexture } from '../../../src/Three.d.ts';
 
 import { Pass } from './Pass.d.ts';

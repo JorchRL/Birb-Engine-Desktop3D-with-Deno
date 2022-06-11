@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { CubeTexture, Loader, LoadingManager, TextureDataType } from '../../../src/Three.d.ts';
 
 import { RGBELoader } from './RGBELoader.d.ts';

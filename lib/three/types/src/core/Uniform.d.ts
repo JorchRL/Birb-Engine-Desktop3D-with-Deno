@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export class Uniform {
     constructor(value: any);
     /**

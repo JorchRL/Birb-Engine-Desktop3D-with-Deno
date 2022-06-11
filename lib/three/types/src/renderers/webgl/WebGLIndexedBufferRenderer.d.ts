@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export class WebGLIndexedBufferRenderer {
     constructor(gl: WebGLRenderingContext, extensions: any, info: any, capabilities: any);
 

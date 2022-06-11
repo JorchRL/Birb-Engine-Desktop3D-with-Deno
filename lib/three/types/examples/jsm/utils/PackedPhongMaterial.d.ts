@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /**
  * `PackedPhongMaterial` inherited from THREE.MeshPhongMaterial
  *

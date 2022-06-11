@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import {
     Camera,
     Color,

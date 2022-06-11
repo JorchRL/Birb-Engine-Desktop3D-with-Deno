@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { InterleavedBufferAttribute } from './InterleavedBufferAttribute.d.ts';
 import { Usage } from '../constants.d.ts';
 

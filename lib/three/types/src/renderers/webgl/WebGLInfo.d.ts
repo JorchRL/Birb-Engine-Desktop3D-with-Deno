@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLProgram } from './WebGLProgram.d.ts';
 
 /**

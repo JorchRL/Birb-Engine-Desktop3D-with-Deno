@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Color } from '../../../src/Three.d.ts';
 
 export interface HSL {

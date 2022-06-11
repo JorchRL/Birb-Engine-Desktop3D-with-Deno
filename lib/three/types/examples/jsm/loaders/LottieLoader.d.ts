@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { CanvasTexture, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class LottieLoader extends Loader {

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { CompressedPixelFormat, PixelFormat, TextureEncoding, TextureDataType } from '../../constants.d.ts';
 
 export class WebGLUtils {

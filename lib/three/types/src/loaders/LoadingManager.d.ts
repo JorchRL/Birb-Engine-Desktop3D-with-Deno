@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader } from './Loader.d.ts';
 
 export const DefaultLoadingManager: LoadingManager;

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLRenderer, Texture } from '../../Three.d.ts';
 
 export class WebGLCubeUVMaps {

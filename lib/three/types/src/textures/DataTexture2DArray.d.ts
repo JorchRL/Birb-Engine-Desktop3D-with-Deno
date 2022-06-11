@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { DataArrayTexture } from './DataArrayTexture.d.ts';
 
 /**

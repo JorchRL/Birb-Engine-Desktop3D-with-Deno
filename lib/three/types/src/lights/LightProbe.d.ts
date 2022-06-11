@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { SphericalHarmonics3 } from './../math/SphericalHarmonics3.d.ts';
 import { Light } from './Light.d.ts';
 

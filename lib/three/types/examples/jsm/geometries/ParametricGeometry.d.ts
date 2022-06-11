@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector3, BufferGeometry } from '../../../src/Three.d.ts';
 
 export class ParametricGeometry extends BufferGeometry {

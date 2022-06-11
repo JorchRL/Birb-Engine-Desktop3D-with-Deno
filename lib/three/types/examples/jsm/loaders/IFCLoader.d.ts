@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import {
     Loader,
     LoadingManager,

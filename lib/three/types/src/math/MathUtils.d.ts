@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Quaternion } from './Quaternion.d.ts';
 
 /**

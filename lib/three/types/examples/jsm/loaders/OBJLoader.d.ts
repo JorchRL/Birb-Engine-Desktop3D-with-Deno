@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader, LoadingManager, Group } from '../../../src/Three.d.ts';
 import { MTLLoader } from './MTLLoader.d.ts';
 

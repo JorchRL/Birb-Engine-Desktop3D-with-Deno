@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D, Plane, Vector3 } from '../../../src/Three.d.ts';
 
 export interface CutByPlaneOutput {

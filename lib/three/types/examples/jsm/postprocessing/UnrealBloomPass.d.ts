@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Color, MeshBasicMaterial, ShaderMaterial, Vector2, Vector3, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
 import { Pass } from './Pass.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector3, Vector4 } from '../../../src/Three.d.ts';
 
 export namespace NURBSUtils {

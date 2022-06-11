@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Matrix4, Mesh, Vector3 } from '../../../src/Three.d.ts';
 
 export class TubePainter {

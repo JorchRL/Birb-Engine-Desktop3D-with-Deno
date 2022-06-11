@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Box3, Matrix3, Matrix4, Plane, Ray, Sphere, Vector3 } from '../../../src/Three.d.ts';
 
 export class OBB {

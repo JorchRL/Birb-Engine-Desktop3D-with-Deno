@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import {
     Material,
     LoadingManager,

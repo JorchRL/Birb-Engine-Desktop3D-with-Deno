@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /// <reference types="webxr" />
 
 import { Vector4 } from '../../math/Vector4.d.ts';

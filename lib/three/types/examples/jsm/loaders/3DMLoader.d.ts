@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader, LoadingManager, Object3D } from '../../../src/Three.d.ts';
 
 export class Rhino3dmLoader extends Loader {

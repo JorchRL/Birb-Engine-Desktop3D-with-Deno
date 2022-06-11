@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, Euler, Mesh, Vector3 } from '../../../src/Three.d.ts';
 
 export class DecalGeometry extends BufferGeometry {

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Curve, Vector3 } from '../../../src/Three.d.ts';
 
 import { ParametricGeometry } from './ParametricGeometry.d.ts';

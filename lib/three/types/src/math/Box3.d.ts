@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferAttribute } from './../core/BufferAttribute.d.ts';
 import { Vector3 } from './Vector3.d.ts';
 import { Object3D } from './../core/Object3D.d.ts';

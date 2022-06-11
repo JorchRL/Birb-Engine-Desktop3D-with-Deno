@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { MaterialParameters, Material } from './Material.d.ts';
 import { Vector3 } from './../math/Vector3.d.ts';
 import { Texture } from './../textures/Texture.d.ts';

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export class AnimationObjectGroup {
     constructor(...args: any[]);
 

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Matrix4, Vector2, IUniform, Texture } from '../../../src/Three.d.ts';
 
 export interface SSRrShader {

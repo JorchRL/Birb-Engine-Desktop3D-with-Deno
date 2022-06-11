@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { ColorRepresentation } from '../utils.d.ts';
 import { Color } from './../math/Color.d.ts';
 

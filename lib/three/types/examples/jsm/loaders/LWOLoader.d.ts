@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Loader, LoadingManager, Material, Object3D } from '../../../src/Three.d.ts';
 
 export interface LWO {

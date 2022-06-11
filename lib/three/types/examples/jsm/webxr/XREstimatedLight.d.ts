@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { DirectionalLight, Group, LightProbe, Texture, WebGLRenderer } from '../../../src/Three.d.ts';
 
 export class SessionLightProbe {

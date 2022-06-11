@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { PerspectiveCamera, Vector3 } from '../../../src/Three.js.d.ts';
 
 export namespace CameraUtils {

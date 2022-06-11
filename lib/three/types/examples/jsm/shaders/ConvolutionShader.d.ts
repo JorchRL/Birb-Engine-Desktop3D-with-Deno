@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Uniform } from '../../../src/core/Uniform.d.ts';
 
 export const ConvolutionShader: {

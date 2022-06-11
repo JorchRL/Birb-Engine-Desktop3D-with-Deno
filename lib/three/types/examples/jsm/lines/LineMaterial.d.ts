@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Color, MaterialParameters, ShaderMaterial, Vector2 } from '../../../src/Three.d.ts';
 
 export interface LineMaterialParameters extends MaterialParameters {

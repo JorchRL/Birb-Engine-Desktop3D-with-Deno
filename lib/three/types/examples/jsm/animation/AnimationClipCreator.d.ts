@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationClip, Vector3 } from '../../../src/Three.d.ts';
 
 export interface AnimationClipCreator {

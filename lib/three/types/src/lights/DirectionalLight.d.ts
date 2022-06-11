@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Object3D } from './../core/Object3D.d.ts';
 import { DirectionalLightShadow } from './DirectionalLightShadow.d.ts';
 import { Light } from './Light.d.ts';

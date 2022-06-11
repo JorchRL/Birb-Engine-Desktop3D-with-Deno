@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Vector3 } from './../math/Vector3.d.ts';
 import { Euler } from './../math/Euler.d.ts';
 import { Quaternion } from './../math/Quaternion.d.ts';

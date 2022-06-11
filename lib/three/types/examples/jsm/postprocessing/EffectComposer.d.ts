@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Clock, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
 import { Pass } from './Pass.d.ts';

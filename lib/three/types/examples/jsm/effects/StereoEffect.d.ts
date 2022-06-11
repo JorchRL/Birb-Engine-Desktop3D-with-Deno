@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, Scene, WebGLRenderer } from '../../../src/Three.d.ts';
 
 export class StereoEffect {

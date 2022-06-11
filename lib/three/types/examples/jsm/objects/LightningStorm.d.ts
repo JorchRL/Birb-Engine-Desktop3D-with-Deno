@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Material, Object3D, Vector3 } from '../../../src/Three.d.ts';
 
 import { LightningStrike, RayParameters } from '../geometries/LightningStrike.d.ts';

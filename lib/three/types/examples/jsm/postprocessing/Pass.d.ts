@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Material, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
 export class Pass {

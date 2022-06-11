@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Plane } from './Plane.d.ts';
 import { Matrix4 } from './Matrix4.d.ts';
 import { Object3D } from './../core/Object3D.d.ts';

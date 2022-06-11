@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { EventDispatcher } from '../core/EventDispatcher.d.ts';
 import { Texture } from '../textures/Texture.d.ts';
 import { WebGLRenderTargetOptions } from './WebGLRenderTarget.d.ts';

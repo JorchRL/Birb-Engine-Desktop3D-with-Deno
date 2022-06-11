@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { PerspectiveCamera } from './PerspectiveCamera.d.ts';
 
 export class ArrayCamera extends PerspectiveCamera {

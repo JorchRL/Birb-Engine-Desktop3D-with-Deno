@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { DataArrayTexture } from '../textures/DataArrayTexture.d.ts';
 import { WebGLRenderTarget } from './WebGLRenderTarget.d.ts';
 

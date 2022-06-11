@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { ColorRepresentation } from '../utils.d.ts';
 import { Object3D } from './../core/Object3D.d.ts';
 import { LineSegments } from './../objects/LineSegments.d.ts';

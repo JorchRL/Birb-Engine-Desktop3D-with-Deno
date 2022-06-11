@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Group, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class GCodeLoader extends Loader {

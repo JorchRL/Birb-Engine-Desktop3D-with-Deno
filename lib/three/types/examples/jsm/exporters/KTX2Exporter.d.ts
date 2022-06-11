@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Data3DTexture, DataTexture, WebGLRenderer, WebGLRenderTarget } from '../../../src/Three.d.ts';
 
 export class KTX2Exporter {

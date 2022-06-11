@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Bone, Euler, Matrix4, Object3D, Quaternion, SkinnedMesh, Vector3 } from '../../../src/Three.d.ts';
 
 export interface MMDPhysicsParameter {

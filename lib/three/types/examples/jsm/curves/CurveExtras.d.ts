@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Curve, Vector3 } from '../../../src/Three.d.ts';
 
 export class GrannyKnot extends Curve<Vector3> {

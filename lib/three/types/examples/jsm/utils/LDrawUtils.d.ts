@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Group, Object3D } from '../../../src/Three.d.ts';
 
 export namespace LDrawUtils {

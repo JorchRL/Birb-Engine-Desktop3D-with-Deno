@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Interpolant } from '../Interpolant.d.ts';
 
 export class CubicInterpolant extends Interpolant {

@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { AnimationClip } from './AnimationClip.d.ts';
 
 export namespace AnimationUtils {

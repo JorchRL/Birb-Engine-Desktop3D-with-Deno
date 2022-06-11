@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Matrix4, Vector2, Texture, IUniform } from '../../../src/Three.d.ts';
 /**
  * References:

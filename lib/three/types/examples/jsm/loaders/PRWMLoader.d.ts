@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, Loader, LoadingManager } from '../../../src/Three.d.ts';
 
 export class PRWMLoader extends Loader {

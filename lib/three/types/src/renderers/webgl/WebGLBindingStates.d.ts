@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLExtensions } from './WebGLExtensions.d.ts';
 import { WebGLAttributes } from './WebGLAttributes.d.ts';
 import { WebGLProgram } from './WebGLProgram.d.ts';

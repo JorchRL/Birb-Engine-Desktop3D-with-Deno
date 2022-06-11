@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BufferGeometry, Material, Mesh, Color } from '../../../src/Three.d.ts';
 
 export class MarchingCubes extends Mesh {

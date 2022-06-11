@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { CompressedTexture, Loader, LoadingManager, WebGLRenderer } from '../../../src/Three.d.ts';
 
 export class BasisTextureLoader extends Loader {

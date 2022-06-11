@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { WebGLRenderTarget } from './WebGLRenderTarget.d.ts';
 
 /**

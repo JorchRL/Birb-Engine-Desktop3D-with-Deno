@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import 'webxr.d.ts';
 
 import {

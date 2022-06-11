@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Data3DTexture } from '../textures/Data3DTexture.d.ts';
 import { WebGLRenderTarget } from './WebGLRenderTarget.d.ts';
 

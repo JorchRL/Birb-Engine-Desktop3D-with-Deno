@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera, EventDispatcher } from '../../../src/Three.d.ts';
 
 export class FlyControls extends EventDispatcher {

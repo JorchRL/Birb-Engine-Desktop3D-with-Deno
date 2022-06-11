@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Line, RectAreaLight, ColorRepresentation } from '../../../src/Three.d.ts';
 
 export class RectAreaLightHelper extends Line {

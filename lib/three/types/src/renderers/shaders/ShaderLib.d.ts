@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { IUniform } from './UniformsLib.d.ts';
 
 export interface Shader {

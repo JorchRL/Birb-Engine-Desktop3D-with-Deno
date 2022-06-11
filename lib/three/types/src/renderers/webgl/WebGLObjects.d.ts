@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 export class WebGLObjects {
     constructor(gl: WebGLRenderingContext, geometries: any, attributes: any, info: any);
 

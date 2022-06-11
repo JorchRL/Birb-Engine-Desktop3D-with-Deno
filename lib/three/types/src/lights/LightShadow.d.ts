@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { Camera } from './../cameras/Camera.d.ts';
 import { Light } from './../lights/Light.d.ts';
 import { Vector2 } from './../math/Vector2.d.ts';

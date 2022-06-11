@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 import { BoxGeometry, Mesh, ShaderMaterial } from '../../../src/Three.d.ts';
 
 export class Sky extends Mesh {
