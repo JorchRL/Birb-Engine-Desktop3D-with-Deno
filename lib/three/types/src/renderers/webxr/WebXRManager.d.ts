@@ -1,5 +1,7 @@
 /// <reference lib="DOM" /> 
-/// <reference types="webxr" />
+
+// Fixed this manually by copying the webxr types from npm (i forgot to do it previously). And then wrote the explicit path manually.
+/// <reference types="../../../webxr/index.d.ts" />
 
 import { Vector4 } from '../../math/Vector4.d.ts';
 import { ArrayCamera } from '../../cameras/ArrayCamera.d.ts';
