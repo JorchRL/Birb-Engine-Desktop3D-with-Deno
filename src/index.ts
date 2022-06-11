@@ -1,31 +1,72 @@
 // This should be the entry point of the Three.js application
 
-import {THREE} from "./appDeps.ts"
+import { GLTFLoader, OrbitControls, RGBELoader, THREE } from "./appDeps.ts";
 
-const scene = new THREE.Scene()
-const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(
+  45,
+  window.innerWidth / window.innerHeight,
+  0.25,
+  20,
+);
+camera.position.set(-1.8, 0.6, 2.7);
 
-const renderer = new THREE.WebGLRenderer()
+const renderer = new THREE.WebGL1Renderer();
 
-renderer.setSize(window.innerWidth, window.innerHeight)
+//   renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setSize(window.innerWidth, window.innerHeight);
+// renderer.toneMapping = THREE.ACESFilmicToneMapping;
+// renderer.toneMappingExposure = 1;
+// renderer.outputEncoding = THREE.sRGBEncoding;
 document.body.appendChild(renderer.domElement);
 
-const geometry = new THREE.BoxGeometry(1,1,1)
-const material = new THREE.MeshBasicMaterial( {color: 0x00ff00})
-const cube = new THREE.Mesh(geometry, material)
+window.addEventListener("resize", onWindowResize);
 
-scene.add(cube)
+init();
 
-camera.position.z = 5
+render();
 
+function init() {
+  new RGBELoader()
+    .setPath("assets/textures/equirectangular/")
+    .load("royal_esplanade_1k.hdr", function (texture) {
+      texture.mapping = THREE.EquirectangularReflectionMapping;
 
-function animate() {
-    requestAnimationFrame(animate);
+      scene.background = texture;
+      scene.environment = texture;
 
-    cube.rotation.x += 0.01
-    cube.rotation.y += 0.01
+      render();
+    });
 
-    renderer.render(scene, camera)
+  //   const loader = new GLTFLoader().setPath("assets/models/DamagedHelmet/glTF/")
+  //     .load("DamagedHelmet.gltf", function (gltf) {
+  //       scene.add(gltf.scene);
+
+  //       render();
+  //     });
+
+  const geometry = new THREE.BoxGeometry(1, 1, 1);
+  const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+  const cube = new THREE.Mesh(geometry, material);
+
+  scene.add(cube);
+
+  const controls = new OrbitControls(camera, renderer.domElement);
+  controls.addEventListener("change", render);
+  controls.minDistance = 2;
+  controls.maxDistance = 10;
+  controls.target.set(0, 0, -0.2);
+  controls.update();
 }
 
-animate()
+function render() {
+  renderer.render(scene, camera);
+}
+
+function onWindowResize() {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+
+  render();
+}
