@@ -1,11 +1,12 @@
 
 {
     "compilerOptions": {
-        "target": "esnext",
+        "allowJs": true,
         "lib": [
             "dom",
             "dom.iterable",
             "dom.asynciterable",
+            "es2016",
             "deno.ns",
             "deno.unstable"
         ]
