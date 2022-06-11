@@ -1,6 +1,6 @@
 // This should be the entry point of the Three.js application
 
-import {THREE} from "../deps.ts"
+import {THREE} from "./appDeps.ts"
 
 const scene = new THREE.Scene()
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
