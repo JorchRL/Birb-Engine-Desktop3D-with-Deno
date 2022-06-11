@@ -51,8 +51,8 @@
   "https://deno.land/x/cache@0.2.13/mod.ts": "3188250d3a013ef6c9eb060e5284cf729083af7944a29e60bb3d8597dd20ebcd",
   "https://deno.land/x/plug@0.5.1/deps.ts": "0f53866f60dc4f89bbc3be9d096f7501f2068a51923db220f43f0ad284b6b892",
   "https://deno.land/x/plug@0.5.1/plug.ts": "620f9454df049228ba715b215582200a344f33f37605d5b4dfce5bf89c7e9815",
-  "https://deno.land/x/webview@0.7.0-pre.1/deps.ts": "5d65fa361dab34087e0c6481bbf409c2060b9305293865f19d2c914cebbd7d1f",
-  "https://deno.land/x/webview@0.7.0-pre.1/mod.ts": "ad7a61ee0049d56970f9f86547bfe7b98e44cdc5ec4bfb13dd77ddf779afcb06",
-  "https://deno.land/x/webview@0.7.0-pre.1/src/ffi.ts": "646ff7bd0c6f5a4c9b5e27dbb7de2d1a3e464a83916ef4228c905bcc29eb0517",
-  "https://deno.land/x/webview@0.7.0-pre.1/src/webview.ts": "954b9f5fc01d61ff82430492ff470ff6570c57b93cd0b5bca40db82e71b78d44"
+  "https://raw.githubusercontent.com/JorchRL/webview_deno/main/deps.ts": "5d65fa361dab34087e0c6481bbf409c2060b9305293865f19d2c914cebbd7d1f",
+  "https://raw.githubusercontent.com/JorchRL/webview_deno/main/mod.ts": "c63ad9bffdf37742d84aa3637e1a4e7e3cad7303a80bbe87ce3048b27d2f3d89",
+  "https://raw.githubusercontent.com/JorchRL/webview_deno/main/src/ffi.ts": "f69449945766aa9ad376b38de41b3724b5b544dd2551cfa1f2db003aed509c57",
+  "https://raw.githubusercontent.com/JorchRL/webview_deno/main/src/webview.ts": "436549df47788f12f061d333c857f7c32a6cbf0e4f0494c90ef681a837608a4e"
 }
