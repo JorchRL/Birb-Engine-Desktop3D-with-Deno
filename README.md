@@ -16,7 +16,7 @@ inside the `src` folder. There is an `appDeps.ts` file for that. Otherwise
 esbuild will attempt to bundle all dependencies into the output file.
 
 Once you write your app you can bundle it with the `./bundle.js`script, which
-uses esbuild.
+uses esbuild. `deno run -A ./build.js`
 
 ## How to run
 
@@ -63,13 +63,13 @@ solution!
 
 ## Further improvements
 
-The original intent is to have Three.js running on Deno. Maybe using
-`deno bundle` to create a package that can then be used on `index.html`. And
-adding a couple of scripts to automate the process.
+The original intent is to have a Three.js bundle built on Deno. Which is can be
+run inside a Webview window. And adding a couple of scripts to automate the
+process.
 
 The idea would be to have a "desktop" solution to make games of 3D apps with
 Deno. Being able to write everything in TypeScript and running a single command
-to build and run everything.
+to build and run everything :D
 
 ## License
 
