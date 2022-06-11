@@ -1,3 +1,4 @@
+/// <reference lib="DOM" /> 
 /**
  * SRC
  */
@@ -209,7 +210,9 @@ export * from './renderers/webgl/WebGLTextures.d.ts';
 export * from './renderers/webgl/WebGLUniforms.d.ts';
 export * from './renderers/webxr/WebXRController.d.ts';
 export * from './renderers/webxr/WebXRManager.d.ts';
-export { WebGLUtils } from './renderers/webgl/WebGLUtils.js';
+
+// this one had WebGLUtils.js as an ending, so I just changed it manually :D
+export { WebGLUtils } from './renderers/webgl/WebGLUtils.d.ts';
 /**
  * Scenes
  */
