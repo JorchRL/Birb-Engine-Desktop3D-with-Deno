@@ -70,6 +70,12 @@ integrity
 Three.js itself is bundled with this project, until I figure out a better
 solution!
 
+## Webview debugging
+
+Please note, I am using my own fork of Webview (see `./deps.ts`) in which I
+enabled dubugging on the console. Otherwise the current version of the pakage
+disables it by default (it's harcoded). I will change back if they enable it :D
+
 ## Further improvements
 
 The original intent is to have a Three.js bundle built on Deno. Which is can be
