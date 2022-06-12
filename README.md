@@ -32,6 +32,18 @@ load assets. So you need to use a local server to run the example.
 
 ## Loading assets
 
+**(WIP)**: Currently I am working on solving issue #8 on this branch. The ideal
+solution will use `webview.bind()` and `webview.init()` for this.
+
+The alternative is to run a local server from a deno script, and then run the
+app. Maybe it can be all done with a single script, but I'm not too keen on the
+idea of using a local server.
+
+One consideration is that I want to eventually pack everything into a single
+executable. That's one of the reasons I choose Deno!
+
+---
+
 Currently, the only way to support loading assets is to serve `index.html` via a
 local server. Look at `./main.ts`. It will navigate to `localhost:5500/dist`. So
 serve them there. And run the app. It should work fine.
