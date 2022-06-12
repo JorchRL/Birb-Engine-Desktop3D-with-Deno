@@ -22,9 +22,13 @@ uses esbuild. `deno run -A ./build.js`
 
 Just run `deno run -A --unstable --config ./deno.json ./main.ts`
 
-Make sure to check the dependencies first. Also, please note that you must run
-it with the config `deno.json` file to set the correct compiler options,
-otherwise there are type conflicts with `deno.window` :D
+(the `--config` flag may be ommited if Deno uses the `deno.json` automatically)
+
+If your three.js app is loading assets, you will need to serve
+`./dist/index.html` from a local server. See the header below!
+
+**please note**: the example app you can currently find on `./dist/app.js` will
+load assets. So you need to use a local server to run the example.
 
 ## Loading assets
 
