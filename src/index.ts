@@ -13,11 +13,11 @@ camera.position.set(-1.8, 0.6, 2.7);
 
 const renderer = new THREE.WebGL1Renderer();
 
-//   renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, window.innerHeight);
-// renderer.toneMapping = THREE.ACESFilmicToneMapping;
-// renderer.toneMappingExposure = 1;
-// renderer.outputEncoding = THREE.sRGBEncoding;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1;
+renderer.outputEncoding = THREE.sRGBEncoding;
 document.body.appendChild(renderer.domElement);
 
 window.addEventListener("resize", onWindowResize);
@@ -38,18 +38,12 @@ function init() {
       render();
     });
 
-  //   const loader = new GLTFLoader().setPath("assets/models/DamagedHelmet/glTF/")
-  //     .load("DamagedHelmet.gltf", function (gltf) {
-  //       scene.add(gltf.scene);
+  const loader = new GLTFLoader().setPath("assets/models/DamagedHelmet/glTF/")
+    .load("DamagedHelmet.gltf", function (gltf) {
+      scene.add(gltf.scene);
 
-  //       render();
-  //     });
-
-  const geometry = new THREE.BoxGeometry(1, 1, 1);
-  const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
-  const cube = new THREE.Mesh(geometry, material);
-
-  scene.add(cube);
+      render();
+    });
 
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.addEventListener("change", render);

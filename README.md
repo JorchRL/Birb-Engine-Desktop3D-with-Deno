@@ -26,6 +26,15 @@ Make sure to check the dependencies first. Also, please note that you must run
 it with the config `deno.json` file to set the correct compiler options,
 otherwise there are type conflicts with `deno.window` :D
 
+## Loading assets
+
+Currently, the only way to support loading assets is to serve `index.html` via a
+local server. Look at `./main.ts`. It will navigate to `localhost:5500/dist`. So
+serve them there. And run the app. It should work fine.
+
+This is (i hope) a temporary solution. I want to be able to stream the assets
+directly into webview as `data:` strings. See issue #8
+
 ## Three.js version
 
 I'm importing Three.js form npm into the project. But I'll manually place it
