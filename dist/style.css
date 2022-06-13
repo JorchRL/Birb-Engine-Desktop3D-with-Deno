@@ -9,7 +9,7 @@
 .inspector {
     position: fixed;
     /* top: 0; */
-    left: 0;
+    left: -200px;
     background-color: rgb(68, 68, 68);
     color: white;
     padding: 1rem 1rem 1rem 1rem;
@@ -20,7 +20,7 @@
 }
 
 .inspector.visible {
-  left: -200px;
+  left: 0px;
   display: flex;
   flex-direction: column;
   
