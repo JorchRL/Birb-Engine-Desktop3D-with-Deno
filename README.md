@@ -18,6 +18,11 @@ esbuild will attempt to bundle all dependencies into the output file.
 Once you write your app you can bundle it with the `./bundle.js`script, which
 uses esbuild. `deno run -A ./build.js`
 
+## Dev tools
+
+I'm working into building a workflow for accessing webkit's inspector. As well
+as implementing a basic inspector with html/css. See the `feature/dev-tools` branch.
+
 ## How to run
 
 Just run `deno run -A --unstable --config ./deno.json ./main.ts`
@@ -38,6 +43,9 @@ serve them there. And run the app. It should work fine.
 
 This is (i hope) a temporary solution. I want to be able to stream the assets
 directly into webview as `data:` strings. See issue #8
+
+UPDATE: It is not, in fact, a temporary solution. So I will have to implement
+a solution to load from a local server 😅. See the `streaming_assets` branch.
 
 ## Three.js version
 
