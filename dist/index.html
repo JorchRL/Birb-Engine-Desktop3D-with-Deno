@@ -4,14 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <style>
-    body {
-      margin: 0;
-    } 
-  </style>
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
+  <div class="inspector">
+    <div class="header">
+      <h1>Inspector</h1>
+    </div>
+  </div>
+  <script>
+    const inspector = document.querySelector(".inspector");
+
+    document.addEventListener("keypress", (event) => {
+      if (event.shiftKey === true && event.key === "I"){
+        inspector.classList.toggle("visible");
+      }
+    });
+    
+    
+  </script>
 
   <!-- Also, the app needs to be written in a plain js file. No import statements, as they won't work with WebView_deno (see issue #1) -->
   <script src="app.js"></script>
