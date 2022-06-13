@@ -4,7 +4,7 @@ import { dirname, join, Webview } from "./deps.ts";
 
 const pageURL = join(dirname(import.meta.url), "/dist/index.html");
 
-const webview = new Webview();
+const webview = new Webview(1600, 950);
 
 webview.navigate("http://localhost:5500/dist");
 webview.run();
