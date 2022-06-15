@@ -8,5 +8,5 @@ const pClient = Deno.run({ cmd: clientCmd, cwd: "./" });
 const pServer = Deno.run({ cmd: serverCmd });
 
 pServer.status();
-// console.log("before hi from the server");
-pClient.status();
+
+await pClient.status();
