@@ -11,19 +11,9 @@ const camera = new THREE.PerspectiveCamera(
 );
 camera.position.set(-1.8, 0.6, 2.7);
 
-const renderer = new THREE.WebGL1Renderer();
-
-renderer.setPixelRatio(window.devicePixelRatio);
-renderer.setSize(window.innerWidth, window.innerHeight);
-renderer.toneMapping = THREE.ACESFilmicToneMapping;
-renderer.toneMappingExposure = 1;
-renderer.outputEncoding = THREE.sRGBEncoding;
-document.body.appendChild(renderer.domElement);
-
-window.addEventListener("resize", onWindowResize);
+const renderer = new THREE.WebGLRenderer();
 
 init();
-
 render();
 
 function init() {
@@ -36,14 +26,24 @@ function init() {
       scene.environment = texture;
 
       render();
+      new GLTFLoader().setPath(
+        "assets/models/DamagedHelmet/glTF/",
+      )
+        .load("DamagedHelmet.gltf", function (gltf) {
+          scene.add(gltf.scene);
+
+          render();
+        });
     });
 
-  const loader = new GLTFLoader().setPath("assets/models/DamagedHelmet/glTF/")
-    .load("DamagedHelmet.gltf", function (gltf) {
-      scene.add(gltf.scene);
+  renderer.setPixelRatio(window.devicePixelRatio);
+  renderer.setSize(window.innerWidth, window.innerHeight);
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  renderer.toneMappingExposure = 1;
+  renderer.outputEncoding = THREE.sRGBEncoding;
+  document.body.appendChild(renderer.domElement);
 
-      render();
-    });
+  window.addEventListener("resize", onWindowResize);
 
   const controls = new OrbitControls(camera, renderer.domElement);
   controls.addEventListener("change", render);
