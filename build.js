@@ -5,13 +5,16 @@ const result = await esbuild.build({
   bundle: true,
   outfile: "./dist/app.js",
   write: true,
-  watch: true,
+  watch: {
+    onRebuild(error, result) {
+      error
+        ? console.error("watch build failed: ", error)
+        : console.log("Watch build succesful: ", result);
+    },
+  },
   target: ["safari11"],
 });
 
 console.log(result);
-
-// Disable if you want to "watch for changes!"
-// Enable for normal builds
 
 // esbuild.stop();
