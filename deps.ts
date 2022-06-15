@@ -3,4 +3,9 @@
 // I'm using my own fork of webview_deno to enable debugging on the console.
 export { Webview } from "https://github.com/JorchRL/webview_deno/raw/main/mod.ts";
 
-export { dirname, join } from "https://deno.land/x/std/path/mod.ts";
+/// from "package.json"
+
+// "dependencies": {
+//     "@types/three": "^0.141.0",
+//     "three": "^0.141.0"
+//   }
