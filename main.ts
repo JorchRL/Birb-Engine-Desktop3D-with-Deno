@@ -1,10 +1,12 @@
-import { dirname, join, Webview } from "./deps.ts";
+const serverScript = "./server.ts";
+const clientScript = "./webview.ts";
 
-// before running webview, we need to run a local server to serve the assets.
+const clientCmd = ["deno", "run", "-A", "--unstable", clientScript];
+const serverCmd = ["deno", "run", serverScript];
 
-const pageURL = join(dirname(import.meta.url), "/dist/index.html");
+const pClient = Deno.run({ cmd: clientCmd, cwd: "./" });
+const pServer = Deno.run({ cmd: serverCmd });
 
-const webview = new Webview();
-
-webview.navigate("http://localhost:5500/dist");
-webview.run();
+pServer.status();
+// console.log("before hi from the server");
+pClient.status();
