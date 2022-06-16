@@ -6,6 +6,13 @@ a page running Three.js
 This is mostly just a toy, and it is not really good for any serious application
 yet.
 
+## Name & Identity
+
+I was thinking about "the birb engine" - there are a lot of birbs where I live. hahaha
+
+<p align="center"> <img width="300" src="https://user-images.githubusercontent.com/27286509/174165293-e5dd9dcc-5761-45c2-b50d-a6014e2d4ed8.png" /></p>
+
+
 ## Quick start
 
 Check out `deno.json` for some uselful tasks:
