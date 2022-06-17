@@ -1,17 +1,22 @@
-# 3D visualization with Three.js on Deno on Desktop
+# Birb Engine - 3D with Three.js on Deno on Desktop
 
-This is a small Deno app that renders a (webkit) webview on desktop. Along with
-a page running Three.js
+This is a project for making a game engine! Intended to be customizable and about as flexible as developing for the web!
 
-This is mostly just a toy, and it is not really good for any serious application
-yet.
+It is a Deno app that renders a (webkit) webview on desktop. 
+
+In contrast to electron, it will not bundle a browser.Instead using the webkit engine you proably already have. Along with
+a page running Three.js, plus some extra tools for making games!
+
+This is a very early project. Mostly just a toy, and it is not really good for any serious application
+yet. But you can already use it if you want!
 
 ## Name & Identity
 
 I was thinking about "the birb engine" - there are a lot of birbs where I live. hahaha
 
-<p align="center"> <img width="300" src="https://user-images.githubusercontent.com/27286509/174165293-e5dd9dcc-5761-45c2-b50d-a6014e2d4ed8.png" /></p>
+<p align="center"> <img width="250" src="https://user-images.githubusercontent.com/27286509/174165293-e5dd9dcc-5761-45c2-b50d-a6014e2d4ed8.png" /></p>
 
+Also, it makes sense. It is made with Deno. And [Birbs are actual DINOSAURS!](https://www.birdlife.org/news/2021/12/21/its-official-birds-are-literally-dinosaurs-heres-how-we-know/#:~:text=Birds%20belong%20to%20the%20theropod,(150%20million%20years%20ago).)
 
 ## Quick start
 
