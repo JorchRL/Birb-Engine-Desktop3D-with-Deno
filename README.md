@@ -1,10 +1,22 @@
 # 3D visualization with Three.js on Deno on Desktop
 
-This is a small Deno app that renders a webview on desktop. Along with a page
-running Three.js
+This is a small Deno app that renders a (webkit) webview on desktop. Along with
+a page running Three.js
 
 This is mostly just a toy, and it is not really good for any serious application
 yet.
+
+## Quick start
+
+Check out `deno.json` for some uselful tasks:
+
+- `$ deno task dev:watch` will run esbuild in watch mode to watch for changes in
+  `./src/index.ts`
+- `$ deno task dev:start` will do the same and also run the webview window
+
+As of now you will have to run a local server to serve `./dist/index.html`,
+otherwise you will see nothing! This feature is being worked on
+`features/server-client` at the moment :D
 
 ## Usage
 
@@ -21,7 +33,10 @@ uses esbuild. `deno run -A ./build.js`
 ## Dev tools
 
 I'm working into building a workflow for accessing webkit's inspector. As well
-as implementing a basic inspector with html/css. See the `feature/dev-tools` branch.
+as implementing a basic inspector with html/css. See the `feature/dev-tools`
+branch.
+
+You can open the "inspector" (for now just a sliding panel) with `shift + i`
 
 ## How to run
 
@@ -37,27 +52,15 @@ load assets. So you need to use a local server to run the example.
 
 ## Loading assets
 
-**(WIP)**: Currently I am working on solving issue #8 on this branch. The ideal
-solution will use `webview.bind()` and `webview.init()` for this.
+It is necessaty to run a local server from a deno script, and then run the app.
+(see issue #8)
 
-The alternative is to run a local server from a deno script, and then run the
-app. Maybe it can be all done with a single script, but I'm not too keen on the
-idea of using a local server.
-
-One consideration is that I want to eventually pack everything into a single
-executable. That's one of the reasons I choose Deno!
+Work is ongoing on the `feature/server-client`
 
 ---
 
 Currently, the only way to support loading assets is to serve `index.html` via a
-local server. Look at `./main.ts`. It will navigate to `localhost:5500/dist`. So
-serve them there. And run the app. It should work fine.
-
-This is (i hope) a temporary solution. I want to be able to stream the assets
-directly into webview as `data:` strings. See issue #8
-
-UPDATE: It is not, in fact, a temporary solution. So I will have to implement
-a solution to load from a local server 😅. See the `streaming_assets` branch.
+local server. So serve the files and run the app. It should work fine.
 
 ## Three.js version
 
