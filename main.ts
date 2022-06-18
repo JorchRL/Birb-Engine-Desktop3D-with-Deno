@@ -1,4 +1,5 @@
 const clientScript = "./webview.ts";
+const serverScript = "./lib/server/server.ts";
 
 const clientCmd = ["deno", "run", "-A", "--unstable", clientScript];
 const serverCmd = ["deno", "run", "-A", "--unstable", serverScript];
