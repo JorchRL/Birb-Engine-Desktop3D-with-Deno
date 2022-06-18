@@ -1,22 +1,26 @@
 # Birb Engine - 3D with Three.js on Deno on Desktop
 
-This is a project for making a game engine! Intended to be customizable and about as flexible as developing for the web!
+This is a project for making a game engine! Intended to be customizable and
+about as flexible as developing for the web!
 
-It is a Deno app that renders a (webkit) webview on desktop. 
+It is a Deno app that renders a (webkit) webview on desktop.
 
-In contrast to electron, it will not bundle a browser.Instead using the webkit engine you proably already have. Along with
-a page running Three.js, plus some extra tools for making games!
+In contrast to electron, it will not bundle a browser.Instead using the webkit
+engine you proably already have. Along with a page running Three.js, plus some
+extra tools for making games!
 
-This is a very early project. Mostly just a toy, and it is not really good for any serious application
-yet. But you can already use it if you want!
+This is a very early project. Mostly just a toy, and it is not really good for
+any serious application yet. But you can already use it if you want!
 
 ## Name & Identity
 
-I was thinking about "the birb engine" - there are a lot of birbs where I live. hahaha
+I was thinking about "the birb engine" - there are a lot of birbs where I live.
+hahaha
 
 <p align="center"> <img width="250" src="https://user-images.githubusercontent.com/27286509/174165293-e5dd9dcc-5761-45c2-b50d-a6014e2d4ed8.png" /></p>
 
-Also, it makes sense. It is made with Deno. And [Birbs are actual DINOSAURS!](https://www.birdlife.org/news/2021/12/21/its-official-birds-are-literally-dinosaurs-heres-how-we-know/#:~:text=Birds%20belong%20to%20the%20theropod,(150%20million%20years%20ago).)
+Also, it makes sense. It is made with Deno. And
+[Birbs are actual DINOSAURS!](https://www.birdlife.org/news/2021/12/21/its-official-birds-are-literally-dinosaurs-heres-how-we-know/#:~:text=Birds%20belong%20to%20the%20theropod,(150%20million%20years%20ago).)
 
 ## Quick start
 
@@ -25,10 +29,6 @@ Check out `deno.json` for some uselful tasks:
 - `$ deno task dev:watch` will run esbuild in watch mode to watch for changes in
   `./src/index.ts`
 - `$ deno task dev:start` will do the same and also run the webview window
-
-As of now you will have to run a local server to serve `./dist/index.html`,
-otherwise you will see nothing! This feature is being worked on
-`features/server-client` at the moment :D
 
 ## Usage
 
@@ -59,20 +59,12 @@ Just run `deno run -A --unstable --config ./deno.json ./main.ts`
 If your three.js app is loading assets, you will need to serve
 `./dist/index.html` from a local server. See the header below!
 
-**please note**: the example app you can currently find on `./dist/app.js` will
-load assets. So you need to use a local server to run the example.
-
 ## Loading assets
 
 It is necessaty to run a local server from a deno script, and then run the app.
-(see issue #8)
 
-Work is ongoing on the `feature/server-client`
-
----
-
-Currently, the only way to support loading assets is to serve `index.html` via a
-local server. So serve the files and run the app. It should work fine.
+It is already implemented: running `deno task start` will run both the webview
+and a server to serve the files. :D
 
 ## Three.js version
 
