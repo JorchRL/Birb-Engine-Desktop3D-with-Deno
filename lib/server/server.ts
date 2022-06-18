@@ -4,7 +4,6 @@ import {randomId} from "./utils.ts";
 
 const handler =async (req:Request) => {
     const path = (new URL(req.url)).pathname;
-    console.log(path);
     const stream = await getFile(path);
 
     if (!stream) return new Response(null, {status:404});
