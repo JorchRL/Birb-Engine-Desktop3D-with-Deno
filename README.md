@@ -3,15 +3,15 @@
 This is a project for making a game engine! Intended to be customizable and
 about as flexible as developing for the web!
 
-It is a Deno app that renders a (webkit) webview on desktop.
+It is a Deno app that renders a (webkit) webview on desktop. Along with a page running Three.js, plus some extra tools i'm building for making games!
 
 In contrast to electron, it will not bundle a browser. Instead it uses the webkit
-engine you proably already have. Thanks to the awesome [Webview library](https://github.com/webview/webview). 
-
-Along with a page running Three.js, plus some extra tools i'm building for making games!
+engine you proably already have. Thanks to the awesome [Webview library](https://github.com/webview/webview), and its [deno bindings](https://deno.land/x/webview@0.7.0-pre.1)!
 
 This is a very early project. Mostly just a toy, and it is not really good for
 any serious application yet. But you can already use it if you want!
+
+> ⚠️ Please note that I cannot guarantee that it will work. It is a VERY early project!
 
 ## Name & Identity
 
@@ -114,6 +114,19 @@ Please note, I am using my own fork of Webview_deno (see `./deps.ts`) in which I
 The original intent is to have a Three.js bundle built on Deno. Which is can be run inside a Webview window. And adding a couple of scripts to automate the process.
 
 The idea would be to have a "desktop" solution to make games of 3D apps with Deno. Being able to write everything in TypeScript and running a single command to build and run everything :D
+
+## Contributing
+
+If you want to contribute, first of all, Thanks! Feel free to raise an issue. I appreciate suggestions as well as errors. 
+
+The only rule of conduct is: be nice and have empathy to your fellow human beings :D
+
+I would specially appreciate suggestions about testing, as I am not completely sure how to go about it 😅
+
+I am not sure if I can accept PR's yet, there are two reasons for this:
+
+- I am not yet completely sure how the overall architecture will end up like. So you shouldn't spend time working on something that is highly likely that won't even make it 😅.
+- I am still figuring out how GitHub works.
 
 ## License
 
