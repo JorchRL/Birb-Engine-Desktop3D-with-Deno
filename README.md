@@ -1,13 +1,14 @@
-# Birb Engine - 3D with Three.js on Deno on Desktop
+# Birb Engine - 3D with Three.js, Deno and Webview on Desktop
 
 This is a project for making a game engine! Intended to be customizable and
 about as flexible as developing for the web!
 
 It is a Deno app that renders a (webkit) webview on desktop.
 
-In contrast to electron, it will not bundle a browser.Instead using the webkit
-engine you proably already have. Along with a page running Three.js, plus some
-extra tools for making games!
+In contrast to electron, it will not bundle a browser. Instead it uses the webkit
+engine you proably already have. Thanks to the awesome [Webview library](https://github.com/webview/webview). 
+
+Along with a page running Three.js, plus some extra tools i'm building for making games!
 
 This is a very early project. Mostly just a toy, and it is not really good for
 any serious application yet. But you can already use it if you want!
@@ -26,9 +27,14 @@ Also, it makes sense. It is made with Deno. And
 
 Check out `deno.json` for some uselful tasks:
 
+First clone the repo.
+
+- `$ deno task start` will just start the `main.ts` program. It should work as is and load the example.
+- `$ deno task dev:start` will do the same and also run esbuild from `./build.js` in watch mode. No "live-reload" yet. 
+
 - `$ deno task dev:watch` will run esbuild in watch mode to watch for changes in
-  `./src/index.ts`
-- `$ deno task dev:start` will do the same and also run the webview window
+  `./src/index.ts`. Won't run the program.
+- `$ deno task server`: will start only the server. In case you want to run the app in a normal browser.
 
 ## Usage
 
@@ -42,7 +48,15 @@ esbuild will attempt to bundle all dependencies into the output file.
 Once you write your app you can bundle it with the `./bundle.js`script, which
 uses esbuild. `deno run -A ./build.js`
 
-## Dev tools
+## How to run
+
+The prefered method is to use the deno tasks defined in `deno.json`.
+
+The main program is run with `deno run -A --unstable --config ./deno.json ./main.ts` (the `--config` flag may be ommited if Deno uses the `deno.json` automatically)
+
+The `main.ts` program will spawn two subprocesses for the client and server respectively.
+
+# Dev tools
 
 I'm working into building a workflow for accessing webkit's inspector. As well
 as implementing a basic inspector with html/css. See the `feature/dev-tools`
@@ -50,14 +64,7 @@ branch.
 
 You can open the "inspector" (for now just a sliding panel) with `shift + i`
 
-## How to run
-
-Just run `deno run -A --unstable --config ./deno.json ./main.ts`
-
-(the `--config` flag may be ommited if Deno uses the `deno.json` automatically)
-
-If your three.js app is loading assets, you will need to serve
-`./dist/index.html` from a local server. See the header below!
+You can also run the app in a normal browser, if you start only the server :D
 
 ## Loading assets
 
@@ -65,6 +72,8 @@ It is necessaty to run a local server from a deno script, and then run the app.
 
 It is already implemented: running `deno task start` will run both the webview
 and a server to serve the files. :D
+
+TODO: A "live-reload" feature is in the works! :D
 
 ## Three.js version
 
@@ -84,38 +93,27 @@ This is the version of Three.js I'm currently using
 
 If you are reading this it is already done! :D
 
-The "./lib/utils/denoify.ts" script will rewrite the import/export urls into
-Deno-friendly urls. You don't need to run it unless you want to import another
-version of Three.js.
+The "./lib/utils/denoify.ts" script will rewrite the import/export urls into Deno-friendly urls. You don't need to run it unless you want to import another version of Three.js.
 
-TODO: there are still some minor issues with this (see issues page)
+TODO: I am rethinking how I am handling this. And currently trying to use a Deno-friendly version from a CDN like esm.sh. So This is very likely to change drastically in the future.
 
 ## Dependency locking
 
-Use `deno cache --reload --lock=lock.json --lock-write ./deps.ts` to
-write/update the dependencies.
+Use `deno cache --reload --lock=lock.json --lock-write ./deps.ts` to write/update the dependencies.
 
-And `deno cache --reload --lock=lock.json ./deps.ts` to check dependencies for
-integrity
+And `deno cache --reload --lock=lock.json ./deps.ts` to check dependencies for integrity
 
-Three.js itself is bundled with this project, until I figure out a better
-solution!
+Three.js itself is bundled with this project, until I figure out a better solution!
 
 ## Webview debugging
 
-Please note, I am using my own fork of Webview (see `./deps.ts`) in which I
-enabled dubugging on the console. Otherwise the current version of the pakage
-disables it by default (it's harcoded). I will change back if they enable it :D
+Please note, I am using my own fork of Webview_deno (see `./deps.ts`) in which I enabled dubugging on the console. Otherwise the current version of the pakage disables it by default (it's harcoded). I will change back if they enable it :D
 
 ## Further improvements
 
-The original intent is to have a Three.js bundle built on Deno. Which is can be
-run inside a Webview window. And adding a couple of scripts to automate the
-process.
+The original intent is to have a Three.js bundle built on Deno. Which is can be run inside a Webview window. And adding a couple of scripts to automate the process.
 
-The idea would be to have a "desktop" solution to make games of 3D apps with
-Deno. Being able to write everything in TypeScript and running a single command
-to build and run everything :D
+The idea would be to have a "desktop" solution to make games of 3D apps with Deno. Being able to write everything in TypeScript and running a single command to build and run everything :D
 
 ## License
 
