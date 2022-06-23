@@ -1,3 +1,5 @@
+
+
 {
   "compilerOptions": {
     "allowJs": true,
@@ -11,10 +13,9 @@
     ]
   },
   "tasks": {
-    "dev:watch": "deno run -A ./build.js",
-    "dev:start": "deno run -A ./build.js & deno run -A --unstable ./lib/main.ts",
     "start": "deno run -A --unstable /lib/main.ts",
-    "server": "deno run -A --watch --unstable /lib/server/server.ts"
+    "server": "deno run -A --watch --unstable /lib/server/server.ts",
+    "build": "deno run -A /lib/utils/build.js"
   },
   "importMap": "./import_map.json"
 }
