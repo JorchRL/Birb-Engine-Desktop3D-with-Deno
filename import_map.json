@@ -1,6 +1,7 @@
 {
   "imports":{
     "three": "https://esm.sh/three@0.141.0",
+    "three/": "https://esm.sh/three@0.141.0/",
     "/":"./",
     "./":"./"
   }
