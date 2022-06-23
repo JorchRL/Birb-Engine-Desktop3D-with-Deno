@@ -1,8 +1,8 @@
 // This should be the entry point of the Three.js application
 
-import { GLTFLoader } from "https://esm.sh/v86/three@0.141.0/es2022/examples/jsm/loaders/GLTFLoader.js";
-import { OrbitControls } from "https://esm.sh/v86/three@0.141.0/es2022/examples/jsm/controls/OrbitControls.js";
-import { RGBELoader } from "https://esm.sh/v86/three@0.141.0/es2022/examples/jsm/loaders/RGBELoader.js";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader.js";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
 import * as THREE from "three";
 
