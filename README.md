@@ -16,7 +16,7 @@ This is a very early project. Mostly just a toy, and it is not really good for a
 I was thinking about "the birb engine" - there are a lot of birbs where I live.
 hahaha
 
-<p align="center"> <img width="250" src="https://user-images.githubusercontent.com/27286509/174165293-e5dd9dcc-5761-45c2-b50d-a6014e2d4ed8.png" /></p>
+<p align="center"> <img width="150" src="https://user-images.githubusercontent.com/27286509/174165293-e5dd9dcc-5761-45c2-b50d-a6014e2d4ed8.png" /></p>
 
 Also, it makes sense. It is made with Deno. And
 [Birbs are actual DINOSAURS!](https://www.birdlife.org/news/2021/12/21/its-official-birds-are-literally-dinosaurs-heres-how-we-know/#:~:text=Birds%20belong%20to%20the%20theropod,(150%20million%20years%20ago).)
@@ -39,6 +39,11 @@ You should output a "./dist/app.js" bundle with your complete Three.js app.
 
 The entrypoint is the `index.ts` file. You shoudl buidl your app there. The bundler (esbuild) will build and bundle everythin into `/dist/app.js`.
 
+## Packages
+
+You can import packages from esm.sh or another CDN and create a reference inside `import_map.json`. Then you can use them inside your project! 
+
+> ⚠️ Please note that you should import the dependencies you want from `import_map.json` otherwise esbuild will just place import statements inside `app.js` instead of downloading and bundling the dependency!
 
 # Dev tools
 
