@@ -15,14 +15,11 @@
   </div>
   <script>
     const inspector = document.querySelector(".inspector");
-
     document.addEventListener("keypress", (event) => {
       if (event.shiftKey === true && event.key === "I"){
         inspector.classList.toggle("visible");
       }
     });
-    
-    
   </script>
 
   <!-- Also, the app needs to be written in a plain js file. No import statements, as they won't work with WebView_deno (see issue #1) -->
