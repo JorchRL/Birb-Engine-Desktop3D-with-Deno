@@ -1,0 +1,195 @@
+{
+	// Place your deno-gui workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+		
+	"afterAll": {
+		"body": "afterAll(() => {\n\t$0\n});",
+		"description": "afterAll function is called once after all specs",
+		"prefix": "aa",
+		"scope": "typescript",
+		
+	},
+	"afterEach": {
+		"body": "afterEach(() => {\n\t$0\n});",
+		"description": "afterEach function is called once after each spec",
+		"prefix": "ae",
+		"scope": "typescript",
+	},
+	"beforeAll": {
+		"body": "beforeAll(() => {\n\t$0\n});",
+		"description": "beforeAll function is called once before all specs",
+		"prefix": "ba",
+		"scope": "typescript",
+
+	},
+	"beforeEach": {
+		"body": "beforeEach(() => {\n\t$0\n});",
+		"description": "beforeEach function is called once before each spec",
+		"prefix": "be",
+		"scope": "typescript",
+	},
+	"describe": {
+		"body": "describe('${1:Name of the group}', () => {\n\t$0\n});",
+		"description": "creates a describe block",
+		"prefix": "desc",
+		"scope": "typescript",
+	},
+	"describe.each": {
+		"body": [
+			"describe.each([${1:[1, 2], [2, 4]}])(",
+			"\t'${2:double(%d)}',",
+			"\t(${3:input, expected}) => {",
+			"\t\ttest(`returns \\${expected}`, () => {",
+			"\t\t\t${4:expect(double(input)).toBe(expected);}",
+			"\t\t});",
+			"\t}",
+			");"
+		],
+		"description": "creates a describe block with different test data sets",
+		"prefix": "desce",
+		"scope": "typescript",
+	},
+	"describe.only": {
+		"body": "describe.only('${1:Name of the group}', () => {\n\t$0\n});",
+		"description": "creates a describe block that runs only",
+		"prefix": "desco",
+		"scope": "typescript",
+	},
+	"describe.skip": {
+		"body": "describe.skip('${1:Name of the group}', () => {\n\t$0\n});",
+		"description": "creates a describe block that will be skipped",
+		"prefix": "descs",
+		"scope": "typescript",
+	},
+
+	"it": {
+		"body": "it('${1:should }', () => {\n\t$0\n});",
+		"description": "creates an it block",
+		"prefix": "it",
+		"scope": "typescript",
+	},
+	"it.each": {
+		"body": [
+			"it.each([${1:[1, 2], [2, 4]}])(",
+			"\t'${2:double(%d)}',",
+			"\t(${3:input, expected}) => {",
+			"\t\t${0:expect(double(input)).toBe(expected);}",
+			"\t}",
+			");"
+		],
+		"description": "creates an it block with different test data sets",
+		"prefix": "ite",
+		"scope": "typescript",
+	},
+	"it.only": {
+		"body": "it.only('${1:should }', () => {\n\t$0\n});",
+		"description": "creates an it block that runs only",
+		"prefix": "ito",
+		"scope": "typescript",
+	},
+	"it.skip": {
+		"body": "it.skip('${1:should }', () => {\n\t$0\n});",
+		"description": "creates an it block that will be skipped",
+		"prefix": "its",
+		"scope": "typescript",
+	},
+	"it.todo": {
+		"body": "it.todo('${1:should }');",
+		"description": "creates a test placeholder",
+		"prefix": "itt",
+		"scope": "typescript",
+	},
+	"it:async": {
+		"body": "it('${1:should }', async () => {\n\t$0\n});",
+		"description": "creates an it block with async callback function",
+		"prefix": "ita",
+		"scope": "typescript",
+	},
+
+	"template:cut": {
+		"body": [
+			"describe('${1:Name of the group}', () => {\n",
+			"\tlet ${2:cut};\n",
+			"\tbeforeEach(() => {\n\t\t$2 = $3;\n\t});\n",
+			"\ttest('${1:should }', () => {",
+			"\t\texpect($2).toBe($0);",
+			"\t});\n",
+			"});"
+		],
+		"description": "creates a template to test a class under test",
+		"prefix": "cut",
+		"scope": "typescript",
+	},
+	"test": {
+		"body": "test('${1:should }', () => {\n\t$0\n});",
+		"description": "creates a test block",
+		"prefix": "test",
+		"scope": "typescript",
+	},
+	"test.each": {
+		"body": [
+			"test.each([${1:[1, 2], [2, 4]}])(",
+			"\t'${2:double(%d)}',",
+			"\t(${3:input, expected}) => {",
+			"\t\t${0:expect(double(input)).toBe(expected);}",
+			"\t}",
+			");"
+		],
+		"description": "creates an test block with different test data sets",
+		"prefix": "teste",
+		"scope": "typescript",
+	},
+	"test.each (table)": {
+		"body": [
+			"test.each`",
+			"\t${1:input}\t| ${2:expected}",
+			"\t\\${1}\t| \\${2}",
+			"\t\\${2}\t| \\${4}",
+			"`('${3:double($${1:input})}', ({ ${1:input}, ${2:expected} }) => {",
+			"\t${0:expect(double(${1:input})).toBe(${2:expected});}",
+			"});"
+		],
+		"description": "creates a test block using a permutation table",
+		"prefix": "testet",
+		"scope": "typescript",
+	},
+	"test.only": {
+		"body": "test.only('${1:should }', () => {\n\t$0\n});",
+		"description": "creates a test block  that runs only",
+		"prefix": "testo",
+		"scope": "typescript",
+	},
+	"test.skip": {
+		"body": "test.skip('${1:should }', () => {\n\t$0\n});",
+		"description": "creates a test block that will be skipped",
+		"prefix": "tests",
+		"scope": "typescript",
+	},
+	"test.todo": {
+		"body": "test.todo('${1:should }');",
+		"description": "creates a test placeholder",
+		"prefix": "testt",
+		"scope": "typescript",
+	},
+	"test:async": {
+		"body": "test('${1:should }', async () => {\n\t$0\n});",
+		"description": "creates an test block with async callback function",
+		"prefix": "testa",
+		"scope": "typescript",
+	},
+
+}

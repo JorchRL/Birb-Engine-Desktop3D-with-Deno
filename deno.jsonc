@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "strict": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "dom.asynciterable",
+      "es2016",
+      "deno.ns",
+      "deno.unstable"
+    ]
+  },
+  "tasks": {
+    "start": "deno run -A --unstable ./index.ts"
+    // "server": "deno run -A --watch --unstable /lib/server/server.ts",
+    // "build": "deno run -A /lib/utils/build.js",
+    // "test": "deno test"
+  },
+  "importMap": "./import_map.jsonc"
+}

@@ -2,10 +2,9 @@ import {
   fromFileUrl,
   join,
   readableStreamFromReader as toStream,
-} from "../deps.ts";
+} from "./deps.ts";
 
 const rootPath = join(fromFileUrl(import.meta.url), "../../../dist");
-// console.log(rootPath);
 
 export const getFile = async (
   relativePath: string,

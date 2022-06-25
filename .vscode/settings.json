@@ -2,4 +2,8 @@
   "deno.enable": true,
   "deno.lint": true,
   "deno.unstable": true,
+  "deno.testing.enable": true,
+  "deno.codeLens.test": true,
+  "deno.importMap": "./import_map.jsonc",
+  "deno.config": "./deno.jsonc",  
 }
