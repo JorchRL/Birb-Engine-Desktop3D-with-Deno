@@ -4,7 +4,7 @@ This is a project for making a game engine! Intended to be customizable and abou
 
 It is a Deno app that renders a (webkit) webview on desktop. Along with a page running Three.js, plus some extra tools i'm building for making games!
 
-In contrast to electron, it will not bundle a browser. Instead it uses the webkit engine you proably already have. Thanks to the awesome [Webview library](https://github.com/webview/webview), and its [deno bindings](https://deno.land/x/webview@0.7.0-pre.1)!
+> ⚠️  UPDATE: I am taking [the backend of this project into its own repo](https://github.com/JorchRL/Tyranosaurus-Deno). As a small API for running a native window with a webkit webview, built on top of the [Webview library](https://github.com/webview/webview_deno) 
 
 This is a very early project. Mostly just a toy, and it is not really good for any serious application yet. But you can already use it if you want!
 
